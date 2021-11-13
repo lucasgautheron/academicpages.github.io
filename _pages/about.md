@@ -11,7 +11,7 @@ redirect_from:
 Research interests
 ==================
 
-I am a graduate student in History and Philosophy of Science (Université de Paris), with a training in Physics (at the École Normale Supérieure de Cachan and Université Pierre et Marie Curie).
+I am a French graduate student in History and Philosophy of Science (Université de Paris), with a training in Physics (at the École Normale Supérieure de Cachan and Université Pierre et Marie Curie).
 I am interested in epistemology, history and sociology of science, cultural evolution, innovation, and of course physics (cosmology, particle physics, gravitational astronomy and more).
 I also like programming (mostly in python for the past few years) and statistics.
 
@@ -34,3 +34,4 @@ I am also an engineer at the <a href="https://lscp.dec.ens.fr/en">LSCP</a>, as p
 We study Language Acquisition by collecting and analyzing long-form recordings capturing the sound environment of infants (what they ear) and their own vocal production.
 This method generates large amounts of audio (typically thousands of hours of audio per corpus) which can be challenging to analyze.
 My work consists into developing <a href="https://github.com/LAAC-LSCP/ChildProject">tools</a> that enable performant systematic analyses across such corpora.
+
