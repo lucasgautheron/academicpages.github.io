@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Lucas Gautheron"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : ""
   location         : "Location"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=oyl_rgUAAAAJ&hl=fr"
+  googlescholar    : "https://scholar.google.com/citations?user=oyl_rgUAAAAJ"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
