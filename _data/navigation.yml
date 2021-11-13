@@ -1,13 +1,13 @@
 # main links links
 main:     
   - title: "Publications"
-    url: /publications/
+    url: https://scholar.google.com/citations?user=oyl_rgUAAAAJ&hl=fr
 
   - title: "Past projects"
     url: /past/
     
   - title: "CV"
-    url: /cv/
+    url: https://github.com/lucasgautheron/CV/
 
   - title: "Blog Posts"
     url: /year-archive/
