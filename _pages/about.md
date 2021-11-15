@@ -11,9 +11,9 @@ redirect_from:
 Research interests
 ==================
 
-I am a French graduate student in History and Philosophy of Science (Université de Paris), with a training in Physics (at the École Normale Supérieure de Cachan and Université Pierre et Marie Curie).
+I am a French graduate student in History and Philosophy of Science (Université de Paris), with training in Physics (École Normale Supérieure de Cachan and Université Pierre et Marie Curie).
 I am interested in epistemology, history and sociology of science, cultural evolution, innovation, and of course physics (cosmology, particle physics, gravitational astronomy and more).
-I also like programming (mostly in python for the past few years) and statistics.
+I also enjoy programming (mostly in python for the past few years) and statistics.
 
 Current projects
 ================
