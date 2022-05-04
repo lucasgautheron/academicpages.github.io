@@ -9,9 +9,11 @@ You can find my articles on <u><a href="{{author.googlescholar}}">my Google Scho
 
 {% include base_path %}
 
+<ul>
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
+<ul>
 
 Unpublished
 ===========
