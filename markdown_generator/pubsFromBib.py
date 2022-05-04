@@ -23,19 +23,21 @@ import string
 import html
 import os
 import re
+import requests
+
 
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
     "proceeding": {
-        "file" : "proceedings.bib",
-        "venuekey": "booktitle",
-        "venue-pretext": "In the proceedings of ",
-        "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
+        "file" : "https://raw.githubusercontent.com/lucasgautheron/CV/main/talks.bib",
+        "venuekey": "note",
+        "venue-pretext": "",
+        "collection" : {"name":"talks",
+                        "permalink":"/talks/"}
         
     },
     "journal":{
-        "file": "pubs.bib",
+        "file": "https://raw.githubusercontent.com/lucasgautheron/CV/main/publications.bib",
         "venuekey" : "journal",
         "venue-pretext" : "",
         "collection" : {"name":"publications",
@@ -56,10 +58,11 @@ def html_escape(text):
 
 for pubsource in publist:
     parser = bibtex.Parser()
-    bibdata = parser.parse_file(publist[pubsource]["file"])
+    bibdata = parser.parse_string(requests.get(publist[pubsource]["file"]).text)
 
     #loop through the individual references in a given bibtex file
     for bib_id in bibdata.entries:
+        print(bib_id)
         #reset default date
         pub_year = "1900"
         pub_month = "01"
@@ -67,6 +70,9 @@ for pubsource in publist:
         
         b = bibdata.entries[bib_id].fields
         
+        venuekey = "booktitle" if bibdata.entries[bib_id].type == "inproceedings" else publist[pubsource]["venuekey"]
+        venuepretext = "In the proceedings of " if bibdata.entries[bib_id].type == "inproceedings" else publist[pubsource]["venue-pretext"]
+ 
         try:
             pub_year = f'{b["year"]}'
 
@@ -83,7 +89,7 @@ for pubsource in publist:
             if "day" in b.keys(): 
                 pub_day = str(b["day"])
 
-                
+
             pub_date = pub_year+"-"+pub_month+"-"+pub_day
             
             #strip out {} as needed (some bibtex entries that maintain formatting)
@@ -106,7 +112,7 @@ for pubsource in publist:
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
 
             #add venue logic depending on citation type
-            venue = publist[pubsource]["venue-pretext"]+b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","")
+            venue = venuepretext+b[venuekey].replace("{", "").replace("}","").replace("\\","")
 
             citation = citation + " " + html_escape(venue)
             citation = citation + ", " + pub_year + "."
