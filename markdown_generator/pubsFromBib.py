@@ -112,8 +112,22 @@ for pubsource in publist:
             #citation title
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
 
+            authorlist = []
+            for author in bibdata.entries[bib_id].persons["author"]:
+                authorname = author.last_names[0]
+                if "." in author.first_names[0]:
+                    authorname += " " + author.first_names[0]
+                else:
+                    authorname += " " + author.first_names[0][:1] + "."
+
+                if "Gautheron" in author.last_names[0]:
+                    authorname = f"<b>{authorname}</b>"
+
+                authorlist.append(authorname)              
+
             #add venue logic depending on citation type
             venue = venuepretext+b[venuekey].replace("{", "").replace("}","").replace("\\","")
+
 
             citation = citation + " " + html_escape(venue)
             citation = citation + ", " + pub_year + "."
@@ -131,7 +145,7 @@ for pubsource in publist:
                     url = True
 
             if url:
-                md += """\nlink: """ + b["url"]  + html_filename
+                md += """\nlink: """ + b["url"]
             
             note = False
             # if "note" in b.keys():
@@ -146,7 +160,7 @@ for pubsource in publist:
             md += "\ndate: " + str(pub_date) 
 
             md += "\nvenue: '" + html_escape(venue) + "'"
-            
+            md += "\nauthors: " + ", ".join(authorlist)
             
 
             md += "\ncitation: '" + html_escape(citation) + "'"
