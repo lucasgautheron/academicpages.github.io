@@ -28,15 +28,16 @@ import requests
 
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
-    "proceeding": {
+    "talks": {
         "file" : "https://raw.githubusercontent.com/lucasgautheron/CV/main/talks.bib",
         "venuekey": "note",
         "venue-pretext": "",
         "collection" : {"name":"talks",
-                        "permalink":"/talks/"}
+                        "permalink":"/talks/"},
+        "type": "talk"
         
     },
-    "journal":{
+    "publications":{
         "file": "https://raw.githubusercontent.com/lucasgautheron/CV/main/publications.bib",
         "venuekey" : "journal",
         "venue-pretext" : "",
@@ -137,6 +138,10 @@ for pubsource in publist:
             #     if len(str(b["note"])) > 5:
             #         md += "\nexcerpt: '" + html_escape(b["note"]) + "'"
             #         note = True
+
+            t = publist[pubsource]["type"] if "type" in publist[pubsource] else None
+            if t:
+                md += "\ntype: " + t
 
             md += "\ndate: " + str(pub_date) 
 
