@@ -13,13 +13,13 @@ You can find my articles on <u><a href="https://scholar.google.com/citations?use
 
 <ul>
 {% for post in site.publications reversed %}
-{% if post.type == "publication" %}
-  {% include archive-single.html %}
-{% endif %}
+  {% if post.type == "publication" %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 <ul>
 
-<h3>Peer-reviewed conference proceedings<h3>
+<h3>Peer-reviewed conference proceedings</h3>
 
 <ul>
 {% for post in site.publications reversed %}
@@ -33,9 +33,9 @@ You can find my articles on <u><a href="https://scholar.google.com/citations?use
 
 <ul>
 {% for post in site.publications reversed %}
-{% if post.type == "talk" %}
-  {% include archive-single.html %}
-{% endif %}
+  {% if post.type == "talk" %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 <ul>
 
@@ -43,8 +43,8 @@ You can find my articles on <u><a href="https://scholar.google.com/citations?use
 
 <ul>
 {% for post in site.publications reversed %}
-{% if post.type != "publication" and post.type != "conference-proceedings" and post.type != "talk" %}
-  {% include archive-single.html %}
-{% endif %}
+  {% if post.type != "publication" and post.type != "conference proceedings" and post.type != "talk" %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 <ul>
