@@ -42,7 +42,8 @@ publist = {
         "venuekey" : "journal",
         "venue-pretext" : "",
         "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
+                        "permalink":"/publication/"},
+        "type": "publication"
     } 
 }
 
@@ -154,6 +155,13 @@ for pubsource in publist:
             #         note = True
 
             t = publist[pubsource]["type"] if "type" in publist[pubsource] else None
+
+            if "note" in b and "under review" in  b["note"]:
+                t = "under-review"
+
+            if bibdata.entries[bib_id].type == "inproceedings":
+                t = "conference proceedings"
+
             if t:
                 md += "\ntype: " + t
 
