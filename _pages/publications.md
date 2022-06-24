@@ -17,7 +17,7 @@ You can find my articles on <u><a href="https://scholar.google.com/citations?use
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
-<ul>
+</ul>
 
 <h3>Peer-reviewed conference proceedings</h3>
 
@@ -27,7 +27,7 @@ You can find my articles on <u><a href="https://scholar.google.com/citations?use
   {% include archive-single.html %}
 {% endif %}
 {% endfor %}
-<ul>
+</ul>
 
 <h3>Talks</h3>
 
@@ -37,7 +37,7 @@ You can find my articles on <u><a href="https://scholar.google.com/citations?use
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
-<ul>
+</ul>
 
 <h3>Other publications</h3>
 
@@ -47,4 +47,4 @@ You can find my articles on <u><a href="https://scholar.google.com/citations?use
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
-<ul>
+</ul>
