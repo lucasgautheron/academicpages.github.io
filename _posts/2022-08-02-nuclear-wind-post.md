@@ -9,9 +9,10 @@ tags:
   - energy transition
   - nuclear energy
   - wind power
+  - français
 ---
 
-Des personnalités politiques de premier plan de la France Insoumise affirment depuis plusieurs mois que le nucléaire est une source d'électricité "intermittente", et même bientôt "plus intermittent[e] que l'éolien" si l'on en croit Jean-Luc Mélenchon [^2].
+Des personnalités politiques de premier plan de la France Insoumise affirment depuis plusieurs mois que le nucléaire est une source d'électricité "intermittente" [^1], et même bientôt "plus intermittent[e] que l'éolien" si l'on en croit Jean-Luc Mélenchon [^2].
 Ce discours, bien sûr, vise à promouvoir la transition vers 100% d'énergies renouvelables défendue par le parti. Une telle transition impliquerait de fermer les 56 réacteurs actuellement en opération, lesquels ont fourni à la France 70% de son électricité en 2019 [^3]. Une telle tâche n'est pas seulement difficile ; elle est aussi critiquable, alors que l'énergie nucléaire demeure à ce stade la source la plus propre en terme de gaz à effet de serre.
 Alors que le bien-fondé de la sortie du nucléaire en Allemagne est remise en question par les menaces actuelles sur l'approvisionnement en gaz et par ses conséquences en terme d'émissions de gaz à effet de serre, LFI et ses alliés d'EELV ont besoin de renforcer leurs arguments contre l'énergie nucléaire.
 Par chance pour eux, le parc nucléaire français rencontre actuellement des difficultés majeures. Environ la moitié des réacteurs sont arrêtés pour des opérations de maintenance, pour diverses raisons, y compris le fameux problème de corrosion sous contrainte anormale identifié sur plusieurs d'entre eux. Il en résulte une faible disponibilité du parc nucléaire est actuellement très limitée, et un risque de blackout pour cet hiver.

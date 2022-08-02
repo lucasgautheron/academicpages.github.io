@@ -6,6 +6,7 @@ bibentry: Goldman2010
 tags:
   - social epistemology
   - social studies of science
+  - english
 ---
 
 The volume *Social Epistemology: Essential Readings* [^1] edited by Alvin I. Goldman and Dennis Whitcomb introduces the topic of social epistemology by bringing together a variety of previously published issues which belong to it. These different chapters are valuable not as much for the originality of the results that they provide, rather than for illustrating the wide scope of questions embodied social epistemology. Readers who are interested like me in diverse topics such as sociology of science, the cultural brain hypothesis in anthropology, or institutional design in political science, will find that social epistemology may provide useful insights beneficial to each of these matters -- which is what makes this introduction exciting to read, and the whole enterprise look attractive. It is in light of the diversity of social epistemology, that Alvin I. Goldman proposes that the topic be split into three categories.
