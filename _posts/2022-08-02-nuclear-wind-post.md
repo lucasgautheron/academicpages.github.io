@@ -11,9 +11,7 @@ tags:
   - wind power
 ---
 
-## Le contexte
-
-Croyez-le ou non, des personnalités politiques de premier plan de la France Insoumise affirment depuis plusieurs mois que le nucléaire est une source d'électricité "intermittente", et même bientôt "plus intermittent[e] que l'éolien" si l'on en croit Jean-Luc Mélenchon [^2].
+Des personnalités politiques de premier plan de la France Insoumise affirment depuis plusieurs mois que le nucléaire est une source d'électricité "intermittente", et même bientôt "plus intermittent[e] que l'éolien" si l'on en croit Jean-Luc Mélenchon [^2].
 Ce discours, bien sûr, vise à promouvoir la transition vers 100% d'énergies renouvelables défendue par le parti. Une telle transition impliquerait de fermer les 56 réacteurs actuellement en opération, lesquels ont fourni à la France 70% de son électricité en 2019 [^3]. Une telle tâche n'est pas seulement difficile ; elle est aussi critiquable, alors que l'énergie nucléaire demeure à ce stade la source la plus propre en terme de gaz à effet de serre.
 Alors que le bien-fondé de la sortie du nucléaire en Allemagne est remise en question par les menaces actuelles sur l'approvisionnement en gaz et par ses conséquences en terme d'émissions de gaz à effet de serre, LFI et ses alliés d'EELV ont besoin de renforcer leurs arguments contre l'énergie nucléaire.
 Par chance pour eux, le parc nucléaire français rencontre actuellement des difficultés majeures. Environ la moitié des réacteurs sont arrêtés pour des opérations de maintenance, pour diverses raisons, y compris le fameux problème de corrosion sous contrainte anormale identifié sur plusieurs d'entre eux. Il en résulte une faible disponibilité du parc nucléaire est actuellement très limitée, et un risque de blackout pour cet hiver.
@@ -27,7 +25,7 @@ Ces données, une fois combinées, permettent d'estimer la puissance installée 
 Cela permet de répondre à des questions telles que : combien faut-il installer d'éoliennes pour obtenir au moins 1 GW (la puissance typique d'un réacteur nucléaire) 90% de l'année ? Les résultats sont donnés ci-dessous, et la méthodologie est explicitée et discutée plus bas.
 
 <figure>
-  <img src="{{site.url}}/images/puissance_installee_garanti_annee.png" alt=""/>
+  <img src="/images/nuclear-wind/puissance_installee_garanti_annee.png" alt=""/>
   <figcaption>Puissance installée requise pour garantir une puissance disponible d'1 GW minimum avec un certain taux de disponibilité sur l'année, pour l'éolien et le nucléaire. Données du parc français. Les courbes continues représentent les valeurs moyennes. Les zones colorées représentent les variations d'une année sur l'autre.</figcaption>
 </figure>
 
@@ -38,12 +36,11 @@ Le graphe ci-dessus tient compte de la variabilité de disponibilité du parc d'
 Ci-dessous, le même graphique est produit pour les données correspondant aux mois d'hiver seulement (décembre à mars inclus), où 1) il y a plus de vent et 2) la demande est plus importante, de sorte qu'EDF s'arrange pour que le parc nucléaire soit davantage disponible (et donc que son facteur de charge soit meilleur). On observe bien ces deux effets, car la puissance installée nécessaire dans un cas comme dans l'autre est plus faible. Mais la distinction demeure nette :
 
 <figure>
-  <img src="{{site.url}}/images/puissance_installee_garanti_hiver.png" alt=""/>
+  <img src="{{site.url}}/images/nuclear-wind/puissance_installee_garanti_hiver.png" alt=""/>
   <figcaption>Puissance installée requise pour garantir une puissance disponible d'1 GW minimum avec un certain taux de disponibilité sur les mois d'hiver, pour l'éolien et le nucléaire. Données du parc français.</figcaption>
 </figure>
 
-Ces graphiques montrent qu'augmenter la taille du parc éolien terrestre au niveau national pour améliorer la sécurité d'approvisionnement est une très mauvaise stratégie sans capacité de stockage. Ce n'est pas le cas pour le nucléaire, car celui-ci n'est effectivement pas "intermittent". Le discours de la France Insoumise relève d'une stratégie de communication déconnectée de l'expérience. Si les partis délaissent la réflexion et l'analyse critique au profit de la production de slogans, le débat public s'en portera-t-il vraiment mieux ?
-
+Ces graphiques montrent qu'augmenter la taille du parc éolien terrestre au niveau national pour améliorer la sécurité d'approvisionnement est une très mauvaise stratégie sans capacité de stockage. Ce n'est pas le cas pour le nucléaire, car celui-ci n'est effectivement pas "intermittent". Le discours de la France Insoumise relève d'une stratégie de communication déconnectée de l'expérience. Si les partis délaissent la réflexion et l'analyse critique au profit de la production de slogans, le débat public s'en portera-t-il vraiment mieux ? Que la France Insoumise affirme que le nucléaire est autant sinon plus intermittent que l'éolien interroge aussi sur la stratégie de sortie du nucléaire envisagée. En effet pour Jean-Luc Mélenchon, "On peut fermer les centrales nucléaires en mettant en face la production d'énergies renouvelables qui correspond" [^6]. Or, comme on le voit sur ces graphes, en aucun cas l'éolien peut apporter la même garantie que le nucléaire et la comparaison est impossible. Si le parc de renouvelables ne couvre pas la demande de manière fiable comme ce sera le cas pour encore longtemps (avant d'avoir suffisamment de surcapacité et de moyens de stockage pour l'absorber), la France Insoumise donnera-t-elle la priorité à la sortie du nucléaire ou à celle des énergies fossiles ?
 
 ## Méthodologie
 
@@ -61,11 +58,9 @@ They are fortunate enough that at the same time, french nuclear power plants are
 As a consequence, french power futures for this winter have soared up. It is on these grounds that nuclear energy have been deemed "intermittent" by La France Insoumise. -->
 
 
-
-
-
 [^1]: https://twitter.com/JLMelenchon/status/1523970032027541504
 [^2]: https://twitter.com/JLMelenchon/status/1491038754978799620
 [^3]: https://www.iea.org/data-and-statistics/data-tables?country=WORLD&energy=Electricity&year=2019
 [^4]: https://odre.opendatasoft.com/explore/dataset/eco2mix-national-cons-def/
 [^5]: https://odre.opendatasoft.com/explore/dataset/registre-national-installation-production-stockage-electricite-agrege/
+[^6]: https://twitter.com/JLMelenchon/status/1520541659242668037
