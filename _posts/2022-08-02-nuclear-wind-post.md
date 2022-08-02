@@ -26,7 +26,7 @@ Ces données, une fois combinées, permettent d'estimer la puissance installée 
 Cela permet de répondre à des questions telles que : combien faut-il installer d'éoliennes pour obtenir au moins 1 GW (la puissance typique d'un réacteur nucléaire) 90% de l'année ? Les résultats sont donnés ci-dessous, et la méthodologie est explicitée et discutée plus bas.
 
 <figure>
-  <img src="/images/nuclear-wind/puissance_installee_garanti_annee.png" alt=""/>
+  <img src="/images/nuclear-wind/puissance_installee_garanti_annee.png" alt="" style="max-width: 800px"/>
   <figcaption>Puissance installée requise pour garantir une puissance disponible d'1 GW minimum avec un certain taux de disponibilité sur l'année, pour l'éolien et le nucléaire. Données du parc français. Les courbes continues représentent les valeurs moyennes. Les zones colorées représentent les variations d'une année sur l'autre.</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ Ces graphiques montrent qu'augmenter la taille du parc éolien terrestre au nive
 
 Pour produire les graphes ci-dessus, j'ai d'abord dérivé la distribution $\tau(q)$ du facteur de charge défini comme $q(t) = P(t)/P_{\text{inst}}$, i.e. le rapport entre la puissance produite par une certaine filière par rapport à la puissance installée pour cette même filière, lequel est compris entre 0 et 1. $\tau(q)$ est ici défini comme la probabilité que le facteur de charge soit supérieur (ou égal) à $q$ et il est très facile de l'obtenir à partir des données. Par exemple, $\tau(q)=1/2$ signifie que le facteur de charge est plus grand que $q$ la moitié de l'année. Je calcule cette distribution pour chaque année $y$ entre 2012 et 2021, que je note $\tau_y(q)$. La fonction réciproque $q_y(\tau)$ donne, pour un taux de disponibilité donné $\tau$ (par exemple $\tau=$ 90%), le facteur de charge garanti $q(\tau)$. J'ai supposé que $q_y(\tau)$ (le facteur de charge garanti) variait d'une année sur l'autre selon une loi Beta (une distribution de probabilité qui est comprise entre 0 et 1, comme $q$), afin de tenir compte des variations dues aux conditions météorologiques d'une année sur l'autre pour l'éolien, et celles dues, par exemple, aux opérations de maintenance et incidents quelconques pour le nucléaire. Mathématiquement, $q_y(\tau) \sim \text{Beta}(\mu_\tau \eta_\tau, (1-\mu_\tau) \eta_\tau)$, où $\mu_\tau$ est la valeur moyenne attendue et $\eta_\tau$ un paramètre qui contrôle l'ampleur des variations d'une année sur l'autre. Enfin, les courbes ci-dessus représentent la distribution de l'inverse de $q$ ($\text{1 GW}/q(\tau)$).
 
-
+Cette méthodologie repose sur la production constatée, laquelle peut-être ajustée en fonction de la demande. Il est probable que la production éolienne soit totalement absorbée, si bien qu'on puisse assimiler le facteur de charge au taux de disponibilité. C'est peut-être moins vrai pour le nucléaire - auquel cas son taux de disponibilité est sous-estimé dans les graphiques ci-dessous.
 
 
 
