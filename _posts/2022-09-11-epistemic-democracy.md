@@ -2,7 +2,7 @@
 title: 'La démocratie comme processus épistémique'
 date: 2022-09-15
 permalink: /posts/2022/09/epistemic-democracy/
-image: /images/democratie-epistemique/image.jpg
+image: democratie-epistemique/image.jpg
 bibentry: Ober2010,Landemore2017
 tags:
   - social epistemology
