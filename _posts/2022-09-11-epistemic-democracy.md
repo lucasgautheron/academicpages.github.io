@@ -1,5 +1,5 @@
 ---
-title: 'La démocratie comme processus épistémique'
+title: "La démocratie comme machine épistémique: comprendre la prospérité d'Athènes"
 date: 2022-09-15
 permalink: /posts/2022/09/epistemic-democracy/
 image: democratie-epistemique/image.jpg
