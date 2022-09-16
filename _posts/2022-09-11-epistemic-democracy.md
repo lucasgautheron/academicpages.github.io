@@ -16,6 +16,11 @@ Les deux ouvrages en question affirment aborder la démocratie sous un angle rel
 
 Le premier, *Democracy and Knowledge: Innovation and Learning in Classical Athens* de J. Ober [^1], est une étude de cas qui se concentre sur une forme particulière de démocratie bien distincte de nos "démocraties" contemporaines. Ober introduit d'ailleurs son ouvrage par une mise en exergue des différences fondamentales entre la démocratie Athénienne et, par exemple, la démocratie américaine. De son côté, *Democratic Reason: Politics, Collective Intelligence, and the Rule of the Many* de H. Landemore [^2] est beaucoup plus théorique, et discute de la démocratie dans un sens plus large et en des termes assez généraux (en discutant, par exemple, des propriétés épistémiques du "majoritarisme").
 
+<figure>
+  <img src="/images/democratie-epistemique/image.jpg" style="max-height: 300px">
+  <figcaption>Couvertures de <em>Democracy and Knowledge: Innovation and Learning in Classical Athens</em> et <em>Democratic Reason: Politics, Collective Intelligence, and the Rule of the Many</em></figcaption>
+</figure>
+
 Ober et Landemore, cependant, soutiennent tous deux qu'il reste à mieux cerner les éventuelles vertus épistémiques de la démocratie, c'est-à-dire sa faculté à tirer partie des savoirs individuels pour les mettre au profit de l'action collective. Il faut donc aller au-delà des discussions usuelles autour de la démocratie, qu'ils s'agissent de conceptions éthiques normatives, ou encore de conceptions issues de la théorie du choix social qui tendent à réduire la démocratie à un arbitrage entre les préférences de différents groupes. Les implications des travaux dans la tradition de celle d'Ober et Landemore ont des implications importantes. Anthropologiques d'abord, car elle participe à comprendre comment l'Homme parvient à exploiter ses capacités hypersociales pour bâtir des formes de coopération complexes exploitant le "cerveau collectif" [^7]. Politiques ensuite, car elle donne des bases robustes pour défendre des formes institutionnelles démocratiques. En mettant en avant leur fonction épistémique, ces discours remettent la balle dans le camp des critiques de la démocratie, à qui revient la charge de prouver que des arrangements institutionnels alternatifs apportent au moins les mêmes bénéfices de ce point de vue.
 <!-- FIXME -->
  
