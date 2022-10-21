@@ -87,7 +87,7 @@ strategy that generalizes very poorly when the $x$ have many dimensions,
 which is often the case in Machine Learning (for instance, $x$ can
 represent a large image). By using theoretical arguments (which of
 course embed additional assumptions), one can tell that this strategy
-will be bad. And this can be tested, by following the strategy described
+will be bad. And this can be tested, by following the method described
 above.
 
 Statisticians learn what sorts of procedures have a good chance of
