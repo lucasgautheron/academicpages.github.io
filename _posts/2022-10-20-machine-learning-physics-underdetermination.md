@@ -36,8 +36,7 @@ that $f(x_i) = y_i$ (it is very straightforward to see that, by finding
 one suitable function $f$, and then by changing any of its value for
 $x \notin \{x_1, ..., x_n\}$). These functions may provide different
 predictions for future observations, most of which will be plain wrong,
-which is problematic for the statistician who's hoping to, e.g., make
-money off his predictions. This problem in Machine Learning is called
+which is problematic for the statistician who's hoping to take advantage of his predictions (for instance, for taking bets). This problem in Machine Learning is called
 *overfitting*. This means that the function $f$ fits the data too well,
 but in a way that does not capture the true regularities at play, such
 that it will fail to make reliable predictions for future data. This
@@ -55,7 +54,7 @@ predictions[^2].
 
 # Managing underdetermination with theoretical constraints
 
-Fortunately, both statisticians and scientists have developed successful
+Fortunately, both the statisticians and the scientists have developed successful
 strategies to overcome this issue.
 
 How do they do that? Let us start with the statisticians. Since they are
