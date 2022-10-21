@@ -1,6 +1,6 @@
 ---
 title: "Machine Learning, Physics and underdetermination"
-date: 2022-09-15
+date: 2022-10-20
 permalink: /posts/2022/10/machine-learning-physics-underdetermination/
 tags:
   - machine-learning
