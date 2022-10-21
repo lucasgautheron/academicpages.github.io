@@ -197,8 +197,9 @@ unlikely and therefore should be penalized. In both cases, that the
 parameters take "unlikely" values is seen as a threat to generalization,
 and when it happens the model is expected to break down at some point.
 Such kind of reasoning has been the basis for Bayesian approaches to
-naturalness, which attribute prior distributions for the parameters of
-the model. This allows to quantify and compare the extent of fine-tuning
+naturalness, which assign prior distributions to the parameters of
+the model, such that certain values would be deemed very unlikely and therefore suspicious.
+This allows to quantify and compare the extent of fine-tuning
 of various models. The underlying hypothesis is that models that are
 less fine tuned have more chance of being correct.
 
