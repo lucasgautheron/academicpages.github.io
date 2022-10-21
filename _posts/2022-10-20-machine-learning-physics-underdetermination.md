@@ -213,7 +213,7 @@ have become more interested in Effective Field Theories (EFT). Roughly
 speaking, EFTs are theories that are known to be at best approximately
 valid above a certain length-scale. "SMEFTs" (Standard Model Effective
 Field Theories) are EFTs built upon the Standard Model of Particle
-Physics. They form a largely constrained range of theories that allows
+Physics. They form a largely unconstrained range of theories that allows
 to explore the many ways in which the SM could fail to generalize to
 further experiments at slightly smaller length-scales. Therefore SMEFTs
 too allows physicists to explore potential deviations from their best
