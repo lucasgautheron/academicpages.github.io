@@ -203,7 +203,7 @@ This allows to quantify and compare the extent of fine-tuning
 of various models. The underlying hypothesis is that models that are
 less fine tuned have more chance of being correct.
 
-The problem is physics is that there is often no agreement about whether
+The problem in physics is that there is often no agreement about whether
 we should expect certain parameters to lie within a certain range. It is
 unclear that our expectations that certain values for certain parameters
 are improbable is purely cognitive, aesthetic, or that it really has
