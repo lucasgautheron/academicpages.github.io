@@ -170,11 +170,9 @@ for pubsource in publist:
             md += "\nvenue: '" + html_escape(venue) + "'"
             md += "\nauthors: " + ", ".join(authorlist)
 
-            credit = ""
             if "credit" in bibdata.entries[bib_id].fields:
                 credit = bibdata.entries[bib_id].fields["credit"]
-
-            md += "\ncredit: '" + html_escape(credit) + "'"
+                md += "\ncredit: '" + html_escape(credit) + "'"
 
             md += "\ncitation: '" + html_escape(citation) + "'"
 
