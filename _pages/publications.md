@@ -6,6 +6,7 @@ author_profile: true
 ---
 
 You can find my articles on <u><a href="https://scholar.google.com/citations?user=oyl_rgUAAAAJ">my Google Scholar profile</a>.</u>
+Publication records include self-assessed <a href="https://www.elsevier.com/authors/policies-and-guidelines/credit-author-statement">CRediT</a> statements characterizing my own contribution.
 
 {% include base_path %}
 

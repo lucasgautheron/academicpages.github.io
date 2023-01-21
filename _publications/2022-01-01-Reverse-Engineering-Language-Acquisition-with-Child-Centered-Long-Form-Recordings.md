@@ -7,5 +7,6 @@ type: publication
 date: 2022-01-01
 venue: 'Annual Review of Linguistics'
 authors: Lavechin M., Seyssel M., <b>Gautheron L.</b>, Dupoux E., Cristia A.
+credit: 'Writing - Review &amp; Editing'
 citation: ' Marvin Lavechin,  Maureen Seyssel,  Lucas Gautheron,  Emmanuel Dupoux,  Alejandrina Cristia, &quot;Reverse Engineering Language Acquisition with Child-Centered Long-Form Recordings.&quot; Annual Review of Linguistics, 2022.'
 ---
