@@ -11,10 +11,11 @@ redirect_from:
 Research interests
 ==================
 
-I am a French student starting a PhD in in History and Philosophy of physics (IZWT, University of Wuppertal), with a training in HPS (Université de Paris) and in Physics (École Normale Supérieure de Cachan and Université Pierre et Marie Curie).
+I am a French student starting a PhD in in History and Philosophy of physics at the Interdisciplinary Centre for Science and Technology Studies in Wuppertal, and currently residing in France as a visiting PhD student at the Medialab (Sciences Po Paris). I have a training in HPS (Université de Paris) and in Physics (École Normale Supérieure de Cachan and Université Pierre et Marie Curie).
+
 I am interested in epistemology, history and sociology of science, cultural evolution, innovation, and of course physics (cosmology, particle physics, gravitational astronomy and more).
 
-I also enjoy statistics (I am especially interested in Bayesian and causal inference) and programming (mostly in python for the past few years). In a previous life, I have also been a journalist and the publication manager for the french online media [Le Média](https://lemediatv.fr>).
+I also enjoy statistics (in particular Bayesian and causal inference) and programming (mostly in python for the past few years). In a previous life, I have also been a journalist and the publication manager for the french online media [Le Média](https://lemediatv.fr>).
 
 Current projects
 ================
