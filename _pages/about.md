@@ -33,9 +33,9 @@ This project is highly interdiscplinary as it draws from various fields (history
 Language Acquisition Across Cultures
 ------------------------------------
 
-I was until recently an engineer at the <a href="https://lscp.dec.ens.fr/en">LSCP</a>, as part of the Language Acquisition Across Cultures team led by Alejandrina Cristia. This team studies Language Acquisition by collecting and analyzing long-form recordings capturing the sound environment of infants (what they ear) and their own vocal production.
+I am alsos collaborating with the <a href="https://lscp.dec.ens.fr/en">LSCP</a>, as part of the Language Acquisition Across Cultures team led by Alejandrina Cristia. This team studies Language Acquisition by collecting and analyzing long-form recordings capturing the sound environment of infants (what they ear) and their own vocal production.
 This method generates large amounts of audio (typically thousands of hours of audio per corpus) which can be challenging to analyze.
-My work consisted into developing <a href="https://github.com/LAAC-LSCP/ChildProject">tools</a> that enable performant systematic analyses across such corpora. I am still trying to keep up with this project when I can find the time. This is a fascinating topic, which I find stimulating both for conceptual reasons (for instance, it is tied with social anthropology) and technical reasons (it generates challenging problems involving statistical inference).
+My work consists into the elaboration of statistical models and in the development of <a href="https://github.com/LAAC-LSCP/ChildProject">tools</a> that enable performant systematic analyses across many corpora. This is a fascinating topic, which I find stimulating both for conceptual reasons (for instance, it is tied with social anthropology) and technical reasons (it generates challenging problems involving statistical inference).
 
 Energy mix modelling
 --------------------
