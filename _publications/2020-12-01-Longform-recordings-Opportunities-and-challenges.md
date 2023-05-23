@@ -3,6 +3,7 @@ title: "Longform recordings : Opportunities and challenges"
 collection: publications
 paperurl: 'https://hal.archives-ouvertes.fr/hal-03047153'
 link: https://hal.archives-ouvertes.fr/hal-03047153
+type: daylong recordings ; ecological validity ; automatic speech processing
 date: 2020-12-01
 venue: 'In the proceedings of LIFT 2020 - 2èmes journées scientifiques du Groupement de Recherche &apos;&apos;Linguistique informatique, formelle et de terrain&apos;&apos;'
 authors: <b>Gautheron L.</b>, Lavechin M., Riad R., Scaff C., Cristia A.

@@ -155,8 +155,9 @@ for pubsource in publist:
             #         note = True
 
             #t = publist[pubsource]["type"] if "type" in publist[pubsource] else None
-            keywords = publist[pubsource]["keywords"] if "keywords" in publist[pubsource] else None
-            
+            keywords = bibdata.entries[bib_id].fields["keywords"] if "keywords" in bibdata.entries[bib_id].fields else None
+            print(keywords)
+
             if "note" in b and "under review" in  b["note"]:
                 t = "under-review"
 

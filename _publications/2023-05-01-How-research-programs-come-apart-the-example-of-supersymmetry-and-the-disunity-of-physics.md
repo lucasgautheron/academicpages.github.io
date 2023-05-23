@@ -3,6 +3,7 @@ title: "How research programs come apart: the example of supersymmetry and the d
 collection: publications
 paperurl: 'https://arxiv.org/abs/2304.03673'
 link: https://arxiv.org/abs/2304.03673
+type: publications
 date: 2023-05-01
 venue: 'Quantitative Science Studies [accepted]'
 authors: <b>Gautheron L.</b>, Omodei E.

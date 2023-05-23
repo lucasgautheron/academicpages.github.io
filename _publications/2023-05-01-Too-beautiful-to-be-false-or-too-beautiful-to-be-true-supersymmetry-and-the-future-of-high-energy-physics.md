@@ -1,6 +1,7 @@
 ---
 title: "Too beautiful to be false, or too beautiful to be true: supersymmetry and the future of high-energy physics"
 collection: talks
+type: talks,seminartalks
 date: 2023-05-01
 venue: '2JM seminar, Sciences Po, Paris'
 authors: <b>Gautheron L.</b>
