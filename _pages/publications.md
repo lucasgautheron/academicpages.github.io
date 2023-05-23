@@ -14,7 +14,7 @@ Publication records include self-assessed <a href="https://www.elsevier.com/auth
 
 <ul>
 {% for post in site.publications reversed %}
-  {% if "publications" in post.type %}
+  {% if post.type contains "publications" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
@@ -24,7 +24,7 @@ Publication records include self-assessed <a href="https://www.elsevier.com/auth
 
 <ul>
 {% for post in site.publications reversed %}
-{% if "conferenceproceedings" in post.type %}
+{% if post.type contains "conferenceproceedings" %}
   {% include archive-single.html %}
 {% endif %}
 {% endfor %}
@@ -35,7 +35,7 @@ Publication records include self-assessed <a href="https://www.elsevier.com/auth
 <h4>Contributed Talks</h4>
 <ul>
 {% for post in site.publications reversed %}
-  {% if "contributedtalks" in post.type %}
+  {% if post.type contains "contributedtalks" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
@@ -44,7 +44,7 @@ Publication records include self-assessed <a href="https://www.elsevier.com/auth
 <h4>Seminar Talks</h4>
 <ul>
 {% for post in site.publications reversed %}
-  {% if "seminartalks" in post.type %}
+  {% if post.type contains "seminartalks" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
@@ -53,7 +53,7 @@ Publication records include self-assessed <a href="https://www.elsevier.com/auth
 
 <ul>
 {% for post in site.publications reversed %}
-  {% if post.type != "publication" and post.type != "conference proceedings" and post.type != "talk" %}
+  {% if post.type contains "other" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
