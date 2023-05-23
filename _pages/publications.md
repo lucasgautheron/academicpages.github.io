@@ -14,7 +14,7 @@ Publication records include self-assessed <a href="https://www.elsevier.com/auth
 
 <ul>
 {% for post in site.publications reversed %}
-  {% if post.type == "publication" %}
+  {% if "publications" in post.type %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
@@ -24,7 +24,7 @@ Publication records include self-assessed <a href="https://www.elsevier.com/auth
 
 <ul>
 {% for post in site.publications reversed %}
-{% if post.type == "conference proceedings" %}
+{% if "conferenceproceedings" in post.type %}
   {% include archive-single.html %}
 {% endif %}
 {% endfor %}
@@ -32,14 +32,23 @@ Publication records include self-assessed <a href="https://www.elsevier.com/auth
 
 <h3>Talks</h3>
 
+<h4>Contributed Talks</h4>
 <ul>
 {% for post in site.publications reversed %}
-  {% if post.type == "talk" %}
+  {% if "contributedtalks" in post.type %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 </ul>
 
+<h4>Seminar Talks</h4>
+<ul>
+{% for post in site.publications reversed %}
+  {% if "seminartalks" in post.type %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+</ul>
 <h3>Other publications</h3>
 
 <ul>

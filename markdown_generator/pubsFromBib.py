@@ -154,16 +154,17 @@ for pubsource in publist:
             #         md += "\nexcerpt: '" + html_escape(b["note"]) + "'"
             #         note = True
 
-            t = publist[pubsource]["type"] if "type" in publist[pubsource] else None
-
+            #t = publist[pubsource]["type"] if "type" in publist[pubsource] else None
+            keywords = publist[pubsource]["keywords"] if "keywords" in publist[pubsource] else None
+            
             if "note" in b and "under review" in  b["note"]:
                 t = "under-review"
 
             if bibdata.entries[bib_id].type == "inproceedings":
                 t = "conference proceedings"
 
-            if t:
-                md += "\ntype: " + t
+            if keywords:
+                md += "\ntype: " + keywords
 
             md += "\ndate: " + str(pub_date) 
 

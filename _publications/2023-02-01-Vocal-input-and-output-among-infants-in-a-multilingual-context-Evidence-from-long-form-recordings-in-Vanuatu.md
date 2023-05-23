@@ -3,7 +3,6 @@ title: "Vocal input and output among infants in a multilingual context: Evidence
 collection: publications
 paperurl: 'https://doi.org/10.1111/desc.13375'
 link: https://doi.org/10.1111/desc.13375
-type: publication
 date: 2023-02-01
 venue: 'Developmental Science'
 authors: Cristia A., <b>Gautheron L.</b>, Colleran H.
