@@ -1,5 +1,5 @@
 ---
-title: "Le nucléaire, 'plus intermittent' que l'éolien?"
+title: "L'Esprit Public, une émission privatisée sur France Culture"
 date: 2018-05-14
 permalink: /posts/2018/05/lesprit-public-une-emission-privatisee-sur-france-culture/
 tags:
