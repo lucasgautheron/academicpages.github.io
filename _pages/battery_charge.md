@@ -264,4 +264,4 @@ suivantes:
 
 Je programme l'API python via Flask. Les optimizations sont effectuées
 via la bibilothèque python cvxpy. Le code est disponible sur Github:
-<https://github.com/lucasgautheron/battery-charge>.
+<https://github.com/lucasgautheron/co2-optimizer>.
