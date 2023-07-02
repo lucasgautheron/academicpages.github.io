@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Other projects"
+title: "Optimisation de l'empreinte carbone de charge de batteries"
 permalink: /battery-charge/
 author_profile: false
 image: battery-charge/all_2023-03-01_2023-03-03.png
