@@ -5,13 +5,6 @@ permalink: /battery-charge/
 author_profile: false
 ---
 
----
-author:
-- Lucas Gautheron
-date: Juin 2023
-title: Optimisation de l'empreinte carbone de la charge de batteries
----
-
 Avec l'accroissement de la part des énergies renouvelables non
 pilotables dans les systèmes électriques, l'intensité des émissions de
 CO$_2$ dues à la production d'électricité devient de plus en plus
