@@ -215,6 +215,7 @@ tableau 1.
 |         Gaz          |           12 800           |              80              |        4        |  Capacité totale - indispos  |
 |       Charbon        |           1 820            |              90              |        6        |  Capacité totale - indispos  |
 |       Imports        |             ?              |                              |        7        |   Virtuellement illimitée    |
+
 **Tableau 1**
 
 ### Exemples
