@@ -64,10 +64,11 @@ L'affichage LCD doit remplir les fonctions suivantes:
 
 Le principe de fonctionnement est le suivant :
 
-![Diagramme FAST](/images/battery-charge/fast.tex.png){#fig:fast width="\\textwidth"}
+![Diagramme FAST](/images/battery-charge/fast.tex.png)
+**Figure 1. Diagramme FAST**
 
-![Schéma simplifié de la solution](/images/battery-charge/interacting.tex.png){#fig:interacting
-width="\\textwidth"}
+![Schéma simplifié de la solution](/images/battery-charge/interacting.tex.png)
+**Figure 2. Schéma simplifié de la solution**
 
 ## Composants techniques
 
@@ -234,7 +235,8 @@ de charge plus étalés.
 
 ![Répartition de la production, intensité carbone (en noire) et commande
 optimale de charge (en rouge, graphique du
-bas).](/images/battery-charge/all_2023-03-01_2023-03-03.png){#fig:exemple width="\\textwidth"}
+bas).](/images/battery-charge/all_2023-03-01_2023-03-03.png)
+**Figure 3. Répartition de la production, intensité carbone (en noire) et commande optimale de charge (en rouge, graphique du bas)**
 
 ### Améliorations de la modélisation prévues
 
