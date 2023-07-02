@@ -234,7 +234,7 @@ de charge plus étalés.
 
 ![Répartition de la production, intensité carbone (en noire) et commande
 optimale de charge (en rouge, graphique du
-bas).](all_2023-03-01_2023-03-03.png){#fig:exemple width="\\textwidth"}
+bas).](/images/battery-charge/all_2023-03-01_2023-03-03.png){#fig:exemple width="\\textwidth"}
 
 ### Améliorations de la modélisation prévues
 
