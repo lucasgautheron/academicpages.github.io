@@ -37,11 +37,13 @@ I am also collaborating with the <a href="https://lscp.dec.ens.fr/en">LSCP</a>, 
 This method generates large amounts of audio (typically thousands of hours of audio per corpus) which can be challenging to analyze.
 My work consists into the elaboration of statistical models and in the development of <a href="https://github.com/LAAC-LSCP/ChildProject">tools</a> that enable performant systematic analyses across many corpora. This is a fascinating topic, which I find stimulating both for conceptual reasons (for instance, it is tied with social anthropology) and technical reasons (it generates challenging problems involving statistical inference).
 
-Energy mix modelling
---------------------
+Energy transition
+-----------------
 
-I have also started working on a pet project about electric power systems.
-The goal is to model electricity production and consumption in order to assess the resiliency of different scenarios, using various optimization and statistical modelling techniques.
+I have also started working on various pet projects about electric power systems and the energy transition.
+I have started designing a device for minimising the carbon footprint of the charge of electric batteries My progress is documented <a href="/battery-charge">here</a>. For this project I use various components including an Arduino, combined with some modelling of the power system in order to forecast the optimal charge program for reducing carbon emissions.
+
+For another project, my goal is to model electricity production and consumption in order to assess the resiliency of different scenarios, using various optimization and statistical modelling techniques.
 The project can be found [on my GitHub](https://github.com/lucasgautheron/scenarios-rte-simulation). 
 
 

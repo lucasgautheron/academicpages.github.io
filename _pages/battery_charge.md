@@ -201,8 +201,7 @@ importe les valeur exactes des coûts marginaux, tant qu'elles
 reproduisent fidèlement le *merit order* effectif en pratique. Pour
 l'instant, je me suis contenté de valeurs semi-réalistes bricolées pour
 obtenir un résultat à peu près acceptable. Tout est résumé dans le
-tableau [\[table:sources\]](#table:sources){reference-type="ref"
-reference="table:sources"}.
+tableau 1.
 
 |      **Source**      | **Capacité maximale (MW)** | **Coût maginal (euros/MWh)** | **Merit order** | **Calcul de disponibilité**  |
 | :------------------: | :------------------------: | :--------------------------: | :-------------: | :--------------------------: |
@@ -216,8 +215,7 @@ reference="table:sources"}.
 |         Gaz          |           12 800           |              80              |        4        |  Capacité totale - indispos  |
 |       Charbon        |           1 820            |              90              |        6        |  Capacité totale - indispos  |
 |       Imports        |             ?              |                              |        7        |   Virtuellement illimitée    |
-
-[\[table:sources\]]{#table:sources label="table:sources"}
+**Tableau 1**
 
 ### Exemples
 
