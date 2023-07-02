@@ -3,6 +3,7 @@ layout: archive
 title: "Other projects"
 permalink: /battery-charge/
 author_profile: false
+image: battery-charge/all_2023-03-01_2023-03-03.png
 ---
 
 Avec l'accroissement de la part des énergies renouvelables non
@@ -220,8 +221,7 @@ tableau 1.
 
 ### Exemples
 
-La figure [3](#fig:exemple){reference-type="ref"
-reference="fig:exemple"}, un exemple basé sur les prédictions du 1er
+La figure [3](#fig:exemple), un exemple basé sur les prédictions du 1er
 mars 2023 au 3 mars 2023. Le graphique du haut représente la répartition
 de la production prédite du 1er mars à minuit au 2 mars à 23:59, par
 tranche de une heure. L'intensité carbone est représentée en noire. Le
