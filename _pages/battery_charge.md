@@ -9,7 +9,7 @@ author_profile: false
 author:
 - Lucas Gautheron
 date: Juin 2023
-title: Prise pour la minimisation de l'empreinte carbone de charge
+title: Optimisation de l'empreinte carbone de la charge de batteries
 ---
 
 Avec l'accroissement de la part des énergies renouvelables non
@@ -241,7 +241,7 @@ de charge plus étalés.
 
 ![Répartition de la production, intensité carbone (en noire) et commande
 optimale de charge (en rouge, graphique du
-bas).](all_2023-03-01_2023-03-03.eps){#fig:exemple width="\\textwidth"}
+bas).](all_2023-03-01_2023-03-03.png){#fig:exemple width="\\textwidth"}
 
 ### Améliorations de la modélisation prévues
 
