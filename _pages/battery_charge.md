@@ -256,9 +256,8 @@ suivantes:
 
 -   Amélioration de la modélisation de la production hydroélectrique au
     fil de l'eau, en substituant $P_{t+\Delta t} = P_{t}$ par
-    $P_{t+\Delta t} = P_{t} + a \int_0^{\Delta t} h(\tau)\text{précipitations}(t+\Delta t-\tau)\cdot d\tau$
-    (i.e. une fonction affine des prévisions de cumul de précipitations,
-    où le coefficient $a$ serait ajusté aux données historiques et $h$ un noyau tel que $h(\tau<)=0$ si $\tau<0$).
+    $P_{t+\Delta t} = P_{t} + \int_0^{\Delta t} h(\tau)\text{précipitations}(t+\Delta t-\tau)\cdot d\tau$
+    (où $h$ un noyau tel que $h(\tau<)=0$ si $\tau<0$).
 
 ## L'API python
 
