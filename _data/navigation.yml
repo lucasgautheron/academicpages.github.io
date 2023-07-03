@@ -4,7 +4,7 @@ main:
     url: /publications/
 
   - title: "Past projects"
-    url: /past/
+    url: /projects/
     
   - title: "CV"
     url: https://github.com/lucasgautheron/CV/blob/main/main_en.pdf
