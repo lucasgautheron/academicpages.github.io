@@ -264,3 +264,16 @@ suivantes:
 Je programme l'API python via Flask. Les optimizations sont effectuées
 via la bibilothèque python cvxpy. Le code est disponible sur Github:
 <https://github.com/lucasgautheron/co2-optimizer>.
+
+Celle-ci est hébergée sur une instance EC2. J'utilise Gunicorn+nginx pour le serveur web.
+
+## Programmation Arduino
+
+Le code pour le microcontrolleur est en cours de développement. Il est accessible <a href="https://github.com/lucasgautheron/co2-optimizer/blob/main/arduino/main/main.ino">ici</a>. Sont implémentés pour le moment : les menus de configuration, le suivi de charge, la récupération de la commande optimale via http (depuis l'instance EC2).
+
+Voici une petite démonstration en l'état actuel :
+
+<video controls width="480px">
+    <source src="/images/battery-charge/lcd.mp4" type="video/mp4" />
+    <source src="/images/battery-charge/lcd.webm" type="video/webm" />
+</video>
