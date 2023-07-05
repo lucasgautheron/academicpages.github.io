@@ -274,6 +274,6 @@ Le code pour le microcontrolleur est en cours de développement. Il est accessib
 Voici une petite démonstration en l'état actuel :
 
 <video controls width="480px">
-    <source src="/images/battery-charge/lcd.mp4" type="video/mp4" />
-    <source src="/images/battery-charge/lcd.webm" type="video/webm" />
+    <source src="/images/battery-charge/arduino.mp4" type="video/mp4" />
+    <source src="/images/battery-charge/arduino.webm" type="video/webm" />
 </video>
