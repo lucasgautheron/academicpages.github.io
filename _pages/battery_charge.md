@@ -3,7 +3,7 @@ layout: archive
 title: "Optimisation de l'empreinte carbone de charge de batteries"
 permalink: /battery-charge/
 author_profile: false
-image: battery-charge/all_2023-03-01_2023-03-03.png
+image: battery-charge/all_2023-07-10_2023-07-12.png
 ---
 
 Avec l'accroissement de la part des énergies renouvelables non
@@ -234,7 +234,7 @@ de charge plus étalés.
 
 ![Répartition de la production, intensité carbone (en noire) et commande
 optimale de charge (en rouge, graphique du
-bas).](/images/battery-charge/all_2023-03-01_2023-03-03.png)
+bas).](/images/battery-charge/all_2023-07-10_2023-07-12.png)
 **Figure 3. Répartition de la production, intensité carbone (en noire) et commande optimale de charge (en rouge, graphique du bas)**
 
 ### Améliorations de la modélisation prévues
