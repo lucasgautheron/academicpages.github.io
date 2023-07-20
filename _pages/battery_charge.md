@@ -265,7 +265,7 @@ Je programme l'API python via Flask. Les optimizations sont effectuées
 via la bibilothèque python cvxpy. Le code est disponible sur Github:
 <https://github.com/lucasgautheron/co2-optimizer>.
 
-Celle-ci est hébergée sur une instance EC2. J'utilise Gunicorn+nginx pour le serveur web.
+Celle-ci est hébergée sur une instance EC2. J'utilise Gunicorn+nginx pour le serveur web. J'ai suivi ce <a href="https://awstip.com/deploying-flask-application-on-ec2-instance-a550a49bd679">tutoriel</a> pour leur configuration.
 
 ## Programmation Arduino
 
