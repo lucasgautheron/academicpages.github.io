@@ -87,7 +87,7 @@ optimal, qui est le coeur du projet. Les calculs nécessitent de combiner
 des informations très récentes et diverses, et pour cela il est plus
 commode de les déléguer à une machine puissante et sophistiquée. Je
 propose donc un serveur web disponible 24h/24, 7j/7, auquel l'Arduino
-communique les paramètres de charge, et qui renvoie en réponse un
+communique les paramètres de charge via Wifi, et qui renvoie en réponse un
 programme de charge optimisé.
 
 ## Fonction de coût et optimisation
@@ -101,7 +101,7 @@ fonction de coût, étant donné deux paramètres :
 -   Le temps maximal de charge $T$ (après un temps $T$, la charge doit
     être impérativement finie).
 
-Soit $I(t)\in\{0,1\}$, la commande de l'interrupteur au cours du temps.
+Soit $I(t)\in \\{0,1\\}$, la commande de l'interrupteur au cours du temps.
 Pour accomplir la charge sur une plage de durée maximale $T$, il faut
 que la charge soit active pendant un temps $\tau$, c'est-à-dire :
 
