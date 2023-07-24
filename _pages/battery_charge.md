@@ -200,7 +200,7 @@ C'est essentiellement les coûts d'exploitation + le coût du combustible
 d'opportunité dès lors qu'une gestion de stock est en jeu. En fait, peu
 importe les valeur exactes des coûts marginaux, tant qu'elles
 reproduisent fidèlement le *merit order* effectif en pratique. Pour
-l'instant, je me suis contenté de valeurs semi-réalistes bricolées pour
+l'instant, je me suis contenté de valeurs arbitraires bricolées pour
 obtenir un résultat à peu près acceptable. Tout est résumé dans le
 tableau 1.
 
