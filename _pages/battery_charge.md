@@ -204,7 +204,7 @@ l'instant, je me suis contenté de valeurs arbitraires bricolées pour
 obtenir un résultat à peu près acceptable. Tout est résumé dans le
 tableau 1.
 
-|      **Source**      | **Capacité maximale (MW)** | **Coût maginal (euros/MWh)** | **Merit order** | **Calcul de disponibilité**  |
+|      **Source**      | **Capacité maximale (MW)** | **Coût minimal (euros/MWh)** | **Merit order** | **Calcul de disponibilité**  |
 | :------------------: | :------------------------: | :--------------------------: | :-------------: | :--------------------------: |
 |       Solaire        |           13 600           |              0               |        0        | Prévisions de production RTE |
 |        Éolien        |           19 500           |              0               |        0        | Prévisions de production RTE |
@@ -218,6 +218,14 @@ tableau 1.
 |       Imports        |             ?              |                              |        7        |   Virtuellement illimitée    |
 
 **Tableau 1**
+
+En fait, les coûts ne sont pas constants pour toutes les unités de chaque mode de production. Pour tenir compte, j'ai supposé que la fonction de coût d'un mode de production dépend de la puissance produite de façon linéaire : 
+
+$$\begin{equation}
+c_i(P_{i,t}) = c_i^0 (1+\theta_i P_{i,t})
+\end{equation}$$
+
+Cela revient en gros à supposer que la distribution des coûts de production pour chaque moyen de production est uniforme (comprise entre un minimum et un maximum). Les paramètres $\theta_i$ ont été ajustés aux données en minimisant l'erreur quadratique moyenne du modèle (évalué sur les données de production entre le 1er novembre 2022 et le 1er mars 2023).
 
 ### Exemples
 
@@ -237,19 +245,35 @@ optimale de charge (en rouge, graphique du
 bas).](/images/battery-charge/all_2023-07-10_2023-07-12.png)
 **Figure 3. Répartition de la production, intensité carbone (en noire) et commande optimale de charge (en rouge, graphique du bas)**
 
+### Performances
+
+Pour évaluer la performence du modèle, je propose deux stratégies :
+
+ - Évaluer <a href="https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient">la corrélation de Spearman</a> entre l'intensité carbone prédite par le modèle sur les données passées et l'intensité carbone estimée par Electricity Maps pour les journées correspondantes. En effet, le modèle doit pouvoir classer chaque heure entre $t$ et $t+$48h par intensité carbone (prédite) croissante. C'est exactement cette capacité qui est évaluée via le coefficient de Spearman.
+ - Évaluer les gains obtenus via les commandes de charge prédites, en supposant que l'intensité carbone réelle est celle calculée a posteriori par Electricity Maps.
+
+
+![Performence du modèle prédictif: exemple](/images/battery-charge/validation_1_linear.png)
+**Figure 4. Répartition de la production, intensité carbone prédite (en noire) et constatée par Electricity Maps (en rouge). La corrélation de Spearman entre prédiction et réel est d'environ 0,6.**
+
+
 ### Améliorations de la modélisation prévues
 
 Dans le futur je propose d'effectuer progressivement les améliorations
 suivantes:
 
--   Prise en compte de la dispersion de la distribution des coûts
-    marginaux à travers les unités d'un même mode de production.
+-   Meilleure prise en compte de la dispersion de la distribution des coûts
+    marginaux à travers les unités d'un même mode de production (non-uniformité)
 
 -   Modéliser un coût marginal dynamique de l'hydraulique stocké
     (réservoirs et pompage-turbinage) à travers les coûts d'opportunité
     associés à la mobilisation du stock.
 
--   Mise à jourdes coûts marginaux n fonction du cours des combustibles.
+-   Prise en compte de la variabilité des coûts marginaux
+ 
+-   Prise en compte des temps de montée en charge
+
+-   Prise en compte de la cogénération
 
 -   Modélisation les imports, pays par pays, à partir du coût moyen et
     des émissions de CO$_2$ moyennes mois par mois et heure par heure.
