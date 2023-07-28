@@ -293,11 +293,26 @@ Celle-ci est hébergée sur une instance EC2. J'utilise Gunicorn+nginx pour le s
 
 ## Programmation Arduino
 
-Le code pour le microcontrolleur est en cours de développement. Il est accessible <a href="https://github.com/lucasgautheron/co2-optimizer/blob/main/arduino/main/main.ino">ici</a>. Sont implémentés pour le moment : les menus de configuration, le suivi de charge, la récupération de la commande optimale via http (depuis l'instance EC2).
+Le code pour le microcontrolleur est accessible sur Github: <a href="https://github.com/lucasgautheron/co2-optimizer/blob/main/arduino/main/main.ino">ici</a>. Sont implémenté : les menus de configuration, le suivi de charge, la récupération de la commande optimale via http (depuis l'instance EC2), la commande à distance de la prise électrique du chargeur. 
 
-Voici une petite démonstration en l'état actuel :
+Voici deux démonstrations (on aperçoit la prise électrique pilotée par l'Arduino, la lumière rouge indiquant lorsque celle-ci est active).
 
+<p><b>Commande forcée</b> (sans optimisation)<br />
 <video controls width="480px">
+    <source src="/images/battery-charge/forced_command.mp4" type="video/mp4" />
+    <!-- <source src="/images/battery-charge/arduino.webm" type="video/webm" /> -->
+</video>
+</p>
+
+<p><b>Commande optimale</b> (avec optimisation)<br />
+<video controls width="480px">
+    <source src="/images/battery-charge/optimal_command.mp4" type="video/mp4" />
+    <!-- <source src="/images/battery-charge/arduino.webm" type="video/webm" /> -->
+</video>
+<br /> 
+</p>
+
+<!-- <video controls width="480px">
     <source src="/images/battery-charge/arduino.mp4" type="video/mp4" />
     <source src="/images/battery-charge/arduino.webm" type="video/webm" />
-</video>
+</video> -->
