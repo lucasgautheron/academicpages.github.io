@@ -15,28 +15,67 @@ périodes de vent. En soirée, l'intensité carbone est souvent à son
 comble, car les moyens de production bas-carbone ne suffisent pas à
 couvrir la demande.
 
-Une solution pour pallier à l'intermittence des énergies renouvelables
-est de stocker des excédents de production d'énergies bas-carbone,
-notamment via des batteries, pour les restituer au réseau quand la
-production est insuffisante face à la demande (plutôt que d'activer des
-moyens comme la combustion de gaz ou de charbon). Certaines batteries
-seront dédiées à l'équilibrage du système électrique, mais d'autres
-leviers existent, comme par exemple le pilotage des batteries des
-véhicules électriques.
-
-La charge des batteries (de voiture, de vélo ou tout autre objet) peut
-en effet souvent être reportée dans un temps raisonnable, plutôt que
-d'appeler du courant dans des moments où les moyens de production
+Ainsi, l'empreinte carbone de l'électricité consommée varie d'une heure à l'autre. 
+Pour cette raison, il est plus ou moins opportun de, par exemple, charger une batterie selon le moment de la journée.
+Or la charge des batteries (de voiture, de vélo ou tout autre objet) peut souvent être reportée dans un temps raisonnable, plutôt que d'appeler du courant dans des moments où les moyens de production
 thermiques fortement émetteurs de carbone sont nécessaires pour faire
-face à la consommation. Par exemple, si dois recharger mon vélo
+face à la consommation. Par exemple, si je dois recharger mon vélo
 électrique pour après-demain, autant le charger lorsque cela ne
 nécessitera pas d'appeler des centrales à gaz.
 
-Mon objectif ici est de concevoir une prise électrique qui optimise la
+Pour cela, j'ai conçu une prise électrique qui optimise la
 charge d'une batterie quelconque (voiture, vélo, ordinateur, etc.) de
 sorte à minimiser l'empreinte carbone due à la charge. Les paramètres de
 charge seront configurables via un boîtier, avec un affichage LCD pour
 faciliter le réglage et le suivi de la charge.
+
+# Sommaire de la page
+
+- [Démonstrations](#démonstrations)
+- [Cahier des charges](#cahier-des-charges)
+  - [Paramètres réglables](#paramètres-réglables)
+  - [Affichage LCD](#affichage-lcd)
+- [Solution technique](#solution-technique)
+  - [Composants techniques](#composants-techniques)
+- [Programme de charge optimal](#programme-de-charge-optimal)
+  - [Fonction de coût et optimisation](#fonction-de-coût-et-optimisation)
+    - [Estimation de la consommation](#estimation-de-la-consommation)
+    - [Estimation de la disponibilité](#estimation-de-la-disponibilité)
+    - [Mécanisme d'allocation des sources de production](#mécanisme-dallocation-des-sources-de-production)
+    - [Exemples](#exemples)
+    - [Performances](#performances)
+    - [Améliorations de la modélisation prévues](#améliorations-de-la-modélisation-prévues)
+  - [L'API python](#lapi-python)
+  - [Programmation Arduino](#programmation-arduino)
+
+# Démonstrations
+
+Voici quelques démonstrations (on aperçoit la prise électrique pilotée par l'Arduino, la lumière rouge indiquant lorsque celle-ci est active).
+
+<p><b>Commande forcée</b> (sans optimisation)</p>
+<p>
+<video controls width="480px">
+    <source src="/images/battery-charge/forced_command.mp4" type="video/mp4" />
+    <!-- <source src="/images/battery-charge/arduino.webm" type="video/webm" /> -->
+</video>
+</p>
+
+<p><b>Commande optimale</b> (avec optimisation)</p>
+<p>
+<video controls width="480px">
+    <source src="/images/battery-charge/optimal_command.mp4" type="video/mp4" />
+    <!-- <source src="/images/battery-charge/arduino.webm" type="video/webm" /> -->
+</video>
+<br /> 
+</p>
+
+<p><b>Affichage du programme de charge</b></p>
+<p>
+<video controls width="480px">
+    <source src="/images/battery-charge/arduino.mp4" type="video/mp4" />
+    <source src="/images/battery-charge/arduino.webm" type="video/webm" />
+</video>
+</p>
 
 # Cahier des charges
 
@@ -295,24 +334,3 @@ Celle-ci est hébergée sur une instance EC2. J'utilise Gunicorn+nginx pour le s
 
 Le code pour le microcontrolleur est accessible sur Github: <a href="https://github.com/lucasgautheron/co2-optimizer/blob/main/arduino/main/main.ino">ici</a>. Sont implémenté : les menus de configuration, le suivi de charge, la récupération de la commande optimale via http (depuis l'instance EC2), la commande à distance de la prise électrique du chargeur. 
 
-Voici deux démonstrations (on aperçoit la prise électrique pilotée par l'Arduino, la lumière rouge indiquant lorsque celle-ci est active).
-
-<p><b>Commande forcée</b> (sans optimisation)<br />
-<video controls width="480px">
-    <source src="/images/battery-charge/forced_command.mp4" type="video/mp4" />
-    <!-- <source src="/images/battery-charge/arduino.webm" type="video/webm" /> -->
-</video>
-</p>
-
-<p><b>Commande optimale</b> (avec optimisation)<br />
-<video controls width="480px">
-    <source src="/images/battery-charge/optimal_command.mp4" type="video/mp4" />
-    <!-- <source src="/images/battery-charge/arduino.webm" type="video/webm" /> -->
-</video>
-<br /> 
-</p>
-
-<!-- <video controls width="480px">
-    <source src="/images/battery-charge/arduino.mp4" type="video/mp4" />
-    <source src="/images/battery-charge/arduino.webm" type="video/webm" />
-</video> -->
