@@ -11,7 +11,7 @@ redirect_from:
 Research interests
 ==================
 
-I am a French student starting a PhD in Philosophy of physics at the Interdisciplinary Centre for Science and Technology Studies in Wuppertal. I have a training in History in Physics (École Normale Supérieure de Cachan and Université Pierre et Marie Curie) and in Philosophy of Science (Université Paris-Cité).
+I am a French student starting a PhD in Philosophy of physics at the Interdisciplinary Centre for Science and Technology Studies in Wuppertal. I have a training in Physics (École Normale Supérieure de Cachan and Université Pierre et Marie Curie) and in History and Philosophy of Science (Université Paris-Cité).
 
 I am interested in epistemology, philosophy and sociology of science, cultural evolution, innovation, and of course physics (cosmology, particle physics, gravitational astronomy and more).
 
