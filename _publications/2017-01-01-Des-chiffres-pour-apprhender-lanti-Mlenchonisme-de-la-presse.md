@@ -7,6 +7,6 @@ type: press
 date: 2017-01-01
 venue: 'Marianne'
 authors: <b>Gautheron L.</b>
-abstract: "In this op-ed, I applied sentiment analysis and emotion detection to press articles and illustrations in order to explore differences in the journalistic treatment of various political figures."
+abstract: "In this paper, I applied sentiment analysis and emotion detection to press articles and illustrations to explore differences in the journalistic treatment of various political figures."
 citation: ' Lucas Gautheron, &quot;Des chiffres pour appréhender l&amp;apos;anti-Mélenchonisme de la presse.&quot; Marianne, 2017.'
 ---
