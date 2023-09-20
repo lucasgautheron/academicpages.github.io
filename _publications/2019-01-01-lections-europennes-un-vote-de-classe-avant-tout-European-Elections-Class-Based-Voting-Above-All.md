@@ -1,5 +1,5 @@
 ---
-title: "Élections européennes : un vote de classe avant tout"
+title: "Élections européennes : un vote de classe avant tout (European Elections: Class-Based Voting Above All)"
 collection: publications
 paperurl: 'https://www.lemediatv.fr/articles/2019/elections-europeennes-un-vote-de-classe-avant-tout-Db1jRBt_S6Cz91TlQMSG_A'
 link: https://www.lemediatv.fr/articles/2019/elections-europeennes-un-vote-de-classe-avant-tout-Db1jRBt_S6Cz91TlQMSG_A
@@ -8,5 +8,5 @@ date: 2019-01-01
 venue: 'Le Média'
 authors: Kouamouo T., <b>Gautheron L.</b>
 abstract: "We analyzed voter trajectories between the French presidential and European elections using a Bayesian ecological inference model. We assessed how these trajectories were influenced by socio-economic factors. This revealed, among other things, the rallying of the right-wing bourgeoisie behind Macron."
-citation: ' Théophile Kouamouo,  Lucas Gautheron, &quot;Élections européennes : un vote de classe avant tout.&quot; Le Média, 2019.'
+citation: ' Théophile Kouamouo,  Lucas Gautheron, &quot;Élections européennes : un vote de classe avant tout (European Elections: Class-Based Voting Above All).&quot; Le Média, 2019.'
 ---
