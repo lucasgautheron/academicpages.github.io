@@ -12,15 +12,9 @@
   {% assign title = post.title %}
 {% endif %}
 
-<li>
+<li class="publication">
       {% if post.authors %}
         {{ post.authors }}
-      {% endif %}
-
-      {% if post.abstract %}
-        {% assign link_title = post.abstract %}
-      {% else %}
-        {% assign link_title = title %}
       {% endif %}
 
       {% if post.link %}
@@ -47,6 +41,10 @@
 
       {% if post.credit %}
         <small>({{ post.credit }})</small>
+      {% endif %}
+
+      {% if post.abstract %}
+        <div class="publication_abstract">{{ post.abstract }}</div>
       {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}

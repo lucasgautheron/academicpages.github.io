@@ -1,0 +1,10 @@
+.publication:hover > .publication_abstract {
+    display: block;
+    visibility: visible;
+    font-size: 80%;
+}
+
+.publication_abstract {
+    display: none;
+    visibility: hidden;
+}
