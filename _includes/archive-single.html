@@ -16,10 +16,17 @@
       {% if post.authors %}
         {{ post.authors }}
       {% endif %}
-      {% if post.link %}
-        <a href="{{ post.link }}">“{{ title }}”</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+
+      {% if post.abstract %}
+        {% assign link_title = abstract %}
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        {% assign link_title = title %}
+      {% endif %}
+
+      {% if post.link %}
+        <a href="{{ post.link }}" title="{{ link_title }}">“{{ title }}”</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}" title="{{ link_title }}" rel="permalink">{{ title }}</a>
       {% endif %}
 
       <!-- {% if post.type %}

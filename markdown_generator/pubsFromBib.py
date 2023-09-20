@@ -176,6 +176,10 @@ for pubsource in publist:
                 credit = bibdata.entries[bib_id].fields["credit"]
                 md += "\ncredit: '" + html_escape(credit) + "'"
 
+            if "abstract" in bibdata.entries[bib_id].fields:
+                abstract = bibdata.entries[bib_id].fields["abstract"]
+                md += "\nabstract: \"" + html_escape(abstract) + "\""
+
             md += "\ncitation: '" + html_escape(citation) + "'"
 
             md += "\n---"

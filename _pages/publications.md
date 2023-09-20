@@ -49,6 +49,17 @@ Publication records include self-assessed <a href="https://credit.niso.org/">CRe
   {% endif %}
 {% endfor %}
 </ul>
+
+<h3>Selected press articles</h3>
+
+<ul>
+{% for post in site.publications reversed %}
+  {% if post.type contains "press" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+</ul>
+
 <h3>Other publications</h3>
 
 <ul>
