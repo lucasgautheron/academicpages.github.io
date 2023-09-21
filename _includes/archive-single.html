@@ -17,6 +17,10 @@
         {{ post.authors }}
       {% endif %}
 
+      {% if post.abstract %}
+        <img src="{{ base_path }}/images/question.svg" size="1em" style="display:inline" class="publication_show_abstract" />
+      {% endif %}
+
       {% if post.link %}
         <a href="{{ post.link }}" title="{{ link_title }}">“{{ title }}”</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
