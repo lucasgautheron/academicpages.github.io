@@ -1,4 +1,4 @@
-.publication:hover ~ .publication_abstract {
+.publication_show_abstract:hover ~ .publication_abstract {
     display: block;
     visibility: visible;
     font-size: 80%;
