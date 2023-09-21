@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 You can find my articles on <u><a href="https://scholar.google.com/citations?user=oyl_rgUAAAAJ">my Google Scholar profile</a>.</u>
-Publication records include self-assessed <a href="https://credit.niso.org/">CRediT</a> statements characterizing my areas of contribution.
+Publication records include self-assessed <a href="https://credit.niso.org/">CRediT</a> statements characterizing my areas of contribution. Hover <img src="{{ base_path }}/images/question.svg" style="display:inline; height:1em" title="Show abstract" /> icons to display an abstract.
 
 {% include base_path %}
 
