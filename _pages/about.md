@@ -29,7 +29,7 @@ Supersymmetry has been the subject of a significant amount of research efforts o
 
 In order to address these questions, I apply quantitative methods (statistical modeling) to large amounts of citation and semantic data from the physics literature, as well as data about the social dimension of research (affiliations, social networks, etc.). My goal is to unveil the dynamics of the different kinds of research conducted around supersymmetry, but also to make causal claims about the processes that drive the commitment of the physicists into certain topics at certain moments in time. This should contribute to understand the strategies developed by scientists in order to maximize different kinds of payoffs, and therefore to our understanding of scientific rationality.
 
-This project is highly interdiscplinary as it draws from various fields ("HPS", the sociology of scientific knowledge, formal social epistemology, models of scientific rationality...). It also draws from Historical Institutionalism, through an analogy between formal institutions and "research traditions".
+This project is highly interdiscplinary as it draws from various fields ("HPS", the sociology of scientific knowledge, formal social epistemology, models of scientific rationality...). It also draws from Historical Institutionalism, through an analogy between formal institutions and "research traditions". This project is financed by the Research Training Group "<a href="https://grk2696.de/">Transformations of Science and Technology since 1800</a>".
 
   
 Language Acquisition Across Cultures
