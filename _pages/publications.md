@@ -41,10 +41,10 @@ Publication records include self-assessed <a href="https://credit.niso.org/">CRe
 {% endfor %}
 </ul>
 
-<h4>Seminar Talks</h4>
+<h4>Invited Talks</h4>
 <ul>
 {% for post in site.publications reversed %}
-  {% if post.type contains "seminartalks" %}
+  {% if post.type contains "invitedtalks" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
