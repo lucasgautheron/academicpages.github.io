@@ -38,7 +38,9 @@ Language Acquisition Across Cultures
 ------------------------------------
 
 I am also collaborating with the <a href="https://lscp.dec.ens.fr/en">LSCP</a>, as part of the Language Acquisition Across Cultures team led by Alejandrina Cristia. This team studies Language Acquisition by collecting and analyzing long-form recordings capturing the sound environment of infants (what they ear) and their own vocal production.
-This method generates large amounts of audio (typically thousands of hours of audio per corpus) which can be challenging to analyze. My work consists into the elaboration of statistical models and in the development of <a href="https://github.com/LAAC-LSCP/ChildProject">tools</a> that enable performant systematic analyses across many corpora. This is a fascinating topic, which I find stimulating both for conceptual reasons (for instance, it is tied with social anthropology) and technical reasons (it generates challenging problems involving statistical inference).
+This method generates large amounts of audio (typically thousands of hours of audio per corpus) which can be challenging to analyze. My work consists into the elaboration of statistical models and in the development of <a href="https://github.com/LAAC-LSCP/ChildProject">tools</a> that enable performant systematic analyses across many corpora.
+
+Recently, I have been investigating the effect on the quantity of "input" -- that is, how much speech children are exposed to -- on their speech output. This is challenging for a number of reasons. First, several time scales are involved in the correlations between input and output, as various effects are superposed: conversational effects, confounding contextual effects (such as child-care activites), and finally long-term developmental effects. Moreover, the algorithms we use to detect and classify speech in the data tend to confuse different speakers, which leads to spurious correlations between input and output. My goal is to develop statistical models that overcome these two challenges.
 
 Energy transition
 -----------------
