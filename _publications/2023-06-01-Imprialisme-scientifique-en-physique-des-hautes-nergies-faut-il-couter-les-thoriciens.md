@@ -3,7 +3,7 @@ title: "Impérialisme scientifique en physique des hautes-énergies: faut-il éc
 collection: talks
 paperurl: 'https://sps2023nanterre.sciencesconf.org/'
 link: https://sps2023nanterre.sciencesconf.org/
-type: talks,contributedtalks
+type: hide
 date: 2023-06-01
 venue: 'Congrès de la Société française de Philosophie des Sciences, Nanterre, France'
 authors: <b>Gautheron L.</b>
