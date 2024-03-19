@@ -11,7 +11,7 @@ redirect_from:
 Research interests
 ==================
 
-I am a French student starting a PhD in sociology and philosophy at the Interdisciplinary Centre for Science and Technology Studies in Wuppertal. I have a training in fundamental physics (École Normale Supérieure de Cachan and Université Pierre et Marie Curie) and in history and philosophy of science (Université Paris-Cité).
+I am a French student in computational sociology/philosophy at the Interdisciplinary Centre for Science and Technology Studies in Wuppertal. I have a training in fundamental physics (École Normale Supérieure de Cachan and Université Pierre et Marie Curie) and in history and philosophy of science (Université Paris-Cité).
 
 I study human and social behavior using computational techniques, with a special interest in collective knowledge. My PhD focuses on modern science, as it illuminates the challenges raised by complex knowledge and the division of cognitive labor. I have broad interests that include epistemology, the philosophy and sociology of science, and cultural evolution. I remain interested in contemporary physics as well. I am also interested in Bayesian and causal inference, which I use for my PhD and other projects.
 
