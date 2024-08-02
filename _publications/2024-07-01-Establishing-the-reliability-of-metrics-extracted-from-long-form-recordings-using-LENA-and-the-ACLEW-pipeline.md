@@ -1,6 +1,8 @@
 ---
 title: "Establishing the reliability of metrics extracted from long-form recordings using LENA and the ACLEW pipeline"
 collection: publications
+paperurl: 'https://osf.io/preprints/psyarxiv/vufw4'
+link: https://osf.io/preprints/psyarxiv/vufw4
 type: publications
 date: 2024-07-01
 venue: 'Behavior Research Methods [accepted]'
