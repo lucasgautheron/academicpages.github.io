@@ -4,9 +4,15 @@ collection: publications
 paperurl: 'https://direct.mit.edu/qss/article/4/3/671/117340/How-research-programs-come-apart-The-example-of'
 link: https://direct.mit.edu/qss/article/4/3/671/117340/How-research-programs-come-apart-The-example-of
 tags:
-    - Philosophy of Science
-    - Natural language processing
-    - Networks
+    - tag: Philosophy of Science
+      id: philosophy-of-science
+      color: #8A2BE2
+    - tag: Natural language processing
+      id: natural-language-processing
+      color: #DA70D6
+    - tag: Networks
+      id: networks
+      color: #DCDCDC
 type: publications
 date: 2023-01-01
 venue: 'Quantitative Science Studies'

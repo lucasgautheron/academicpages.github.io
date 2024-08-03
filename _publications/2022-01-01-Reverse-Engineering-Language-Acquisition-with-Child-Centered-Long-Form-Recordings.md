@@ -4,8 +4,12 @@ collection: publications
 paperurl: 'https://www.annualreviews.org/doi/full/10.1146/annurev-linguistics-031120-122120'
 link: https://www.annualreviews.org/doi/full/10.1146/annurev-linguistics-031120-122120
 tags:
-    - Language acquisition
-    - Literature review
+    - tag: Language acquisition
+      id: language-acquisition
+      color: #696969
+    - tag: Literature review
+      id: literature-review
+      color: #D8BFD8
 type: publications
 date: 2022-01-01
 venue: 'Annual Review of Linguistics'

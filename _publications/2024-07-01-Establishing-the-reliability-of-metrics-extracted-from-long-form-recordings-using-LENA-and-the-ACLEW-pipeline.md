@@ -4,8 +4,12 @@ collection: publications
 paperurl: 'https://osf.io/preprints/psyarxiv/vufw4'
 link: https://osf.io/preprints/psyarxiv/vufw4
 tags:
-    - Language acquisition
-    - Statistical inference
+    - tag: Language acquisition
+      id: language-acquisition
+      color: #696969
+    - tag: Statistical inference
+      id: statistical-inference
+      color: #1E90FF
 type: publications
 date: 2024-07-01
 venue: 'Behavior Research Methods [accepted]'

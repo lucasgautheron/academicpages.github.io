@@ -4,10 +4,18 @@ collection: publications
 paperurl: 'https://link.springer.com/10.1007/s10579-022-09579-3'
 link: https://link.springer.com/10.1007/s10579-022-09579-3
 tags:
-    - Language acquisition
-    - Open science
-    - Big data
-    - Software
+    - tag: Language acquisition
+      id: language-acquisition
+      color: #696969
+    - tag: Open science
+      id: open-science
+      color: #FFDAB9
+    - tag: Big data
+      id: big-data
+      color: #BA55D3
+    - tag: Software
+      id: software
+      color: #FFE4C4
 type: publications
 date: 2022-02-01
 venue: 'Language Resources and Evaluation'

@@ -4,8 +4,12 @@ collection: publications
 paperurl: 'https://doi.org/10.1111/desc.13375'
 link: https://doi.org/10.1111/desc.13375
 tags:
-    - Language acquisition
-    - Bayesian inference
+    - tag: Language acquisition
+      id: language-acquisition
+      color: #696969
+    - tag: Bayesian inference
+      id: bayesian-inference
+      color: #FFFF00
 type: publications
 date: 2023-02-01
 venue: 'Developmental Science'

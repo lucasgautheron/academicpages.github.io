@@ -4,12 +4,24 @@ collection: publications
 paperurl: 'https://arxiv.org/abs/2312.14040'
 link: https://arxiv.org/abs/2312.14040
 tags:
-    - Science of Science
-    - Optimal Transport
-    - Natural language processing
-    - Networks
-    - Bayesian inference
-    - Inverse methods
+    - tag: Science of Science
+      id: science-of-science
+      color: #B0E0E6
+    - tag: Optimal Transport
+      id: optimal-transport
+      color: #C71585
+    - tag: Natural language processing
+      id: natural-language-processing
+      color: #DA70D6
+    - tag: Networks
+      id: networks
+      color: #DCDCDC
+    - tag: Bayesian inference
+      id: bayesian-inference
+      color: #FFFF00
+    - tag: Inverse methods
+      id: inverse-methods
+      color: #4682B4
 type: preprints
 date: 2023-12-01
 venue: 'arXiv'

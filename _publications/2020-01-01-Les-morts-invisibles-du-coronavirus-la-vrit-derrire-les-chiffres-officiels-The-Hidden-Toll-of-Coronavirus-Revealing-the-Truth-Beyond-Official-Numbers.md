@@ -4,9 +4,15 @@ collection: publications
 paperurl: 'https://www.lemediatv.fr/articles/2020/data-les-morts-invisibles-du-coronavirus-la-verite-derriere-les-chiffres-officiels-SaYKcOT9RFaTkUMNO7HOYg'
 link: https://www.lemediatv.fr/articles/2020/data-les-morts-invisibles-du-coronavirus-la-verite-derriere-les-chiffres-officiels-SaYKcOT9RFaTkUMNO7HOYg
 tags:
-    - Covid
-    - Data mining
-    - Statistical inference
+    - tag: Covid
+      id: covid
+      color: #90EE90
+    - tag: Data mining
+      id: data-mining
+      color: #FAEBD7
+    - tag: Statistical inference
+      id: statistical-inference
+      color: #1E90FF
 type: press
 date: 2020-01-01
 venue: 'Le Média'
