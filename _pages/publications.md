@@ -29,12 +29,12 @@ $(document).ready(function () {
       target = "ul li.publication:not(:has(div span.{{ tag.id }}))";
 
       console.log($("#toggle-{{ tag.id }}").css('background-color')); 
-      if ($("#toggle-{{ tag.id }}").css('background-color') == 'gray') {
+      if ($("#toggle-{{ tag.id }}").css('background-color') == 'rgb(128, 128, 128)') {
         $("#toggle-{{ tag.id }}").css('background-color', '');
         $("#toggle-{{ tag.id }}").css('color', '');
         $(target).show();
       } else {
-        $("#toggle-{{ tag.id }}").css('background-color', 'gray');
+        $("#toggle-{{ tag.id }}").css('background-color', 'rgb(128, 128, 128)');
         $("#toggle-{{ tag.id }}").css('color', 'white');
         $(target).hide();
       }
@@ -44,11 +44,8 @@ $(document).ready(function () {
 });
 </script>
 
-<div id="pubs">
 {% for tag in tags %}
-<div style="white-space:nowrap; display: inline-block;">
-  <span id="toggle-{{ tag.id }}" class="publication_tag {{ tag.id }}" style="background-color: {{ tag.color }}; color: {{ tag.text_color }};">{{ tag.tag }}</span>
-</div>
+<span id="toggle-{{ tag.id }}" class="publication_tag {{ tag.id }}" style="background-color: {{ tag.color }}; color: {{ tag.text_color }}; margin-left: 4px;">{{ tag.tag }}</span>
 {% endfor %}
 
 {% include base_path %}
@@ -122,5 +119,3 @@ $(document).ready(function () {
   {% endif %}
 {% endfor %}
 </ul>
-
-</div>
