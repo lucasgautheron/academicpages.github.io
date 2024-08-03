@@ -35,6 +35,7 @@ $(document).ready(function () {
   {% endfor %}
 
   function enable_tag(tag_id) {
+    tag_state[tag_id].selected = true;
     target = "ul li.publication:not(:has(div span." + tag_id + "))";
     $("#toggle-" + tag_id + "").css('background-color', 'rgb(164, 164, 164)');
     $("#toggle-" + tag_id + "").css('color', 'white');
@@ -42,6 +43,7 @@ $(document).ready(function () {
   }
 
   function disable_tag(tag_id) {
+    tag_state[tag_id].selected = false;
     target = "ul li.publication:not(:has(div span." + tag_id + "))";
     $("#toggle-" + tag_id + "").css('background-color', tag_state[tag_id].color);
     $("#toggle-" + tag_id + "").css('color', tag_state[tag_id].text_color);
