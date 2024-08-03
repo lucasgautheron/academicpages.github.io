@@ -21,35 +21,7 @@ Publication records include self-assessed <a href="https://credit.niso.org/">CRe
   {% endif %}
 {% endfor %}
 
-<style type="text/css">
-{% for tag in tags %}
-#toggle-{{ tag.id }}:checked ~ .publication:not(:has(div span.{{ tag.id }})) {
-    display: none;
-}
-
-#toggle-{{ tag.id }}:checked ~ div {
-    display: none;
-}
-{% endfor %}
-
-label.publication_tag {
-  display: inline-block;
-  margin-right: 3px;
-}
-
-.visually-hidden {
-    position: absolute;
-    display: inline-block;
-    left: -100vw;
-}
-</style>
-
-{% for tag in tags %}
-<div style="white-space:nowrap; display: inline-block;">
-  <!--<label for="toggle-{{ tag.id }}" class="publication_tag" style="background-color: {{ tag.color }}; color: {{ tag.text_color }};">{{ tag.tag }}</label>-->
-  <input type="checkbox" id="toggle-{{ tag.id }}" />
-</div>
-{% endfor %}
+<div id="pubs">
 
 {% include base_path %}
 
@@ -122,3 +94,5 @@ label.publication_tag {
   {% endif %}
 {% endfor %}
 </ul>
+
+</div>
