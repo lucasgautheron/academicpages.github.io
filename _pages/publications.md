@@ -24,8 +24,8 @@ Publication records include self-assessed <a href="https://credit.niso.org/">CRe
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" type="text/javascript">
 <script type="text/javascript">
 $(document).ready(function () {
+  alert("hi");
   {% for tag in tags %}
-    $("ul li.publication:not(:has(div span.{{ tag.id }}))").toggle();
     $("#toggle-{{ tag.id }}").click(function () {
       $("ul li.publication:not(:has(div span.{{ tag.id }}))").toggle();
     });
