@@ -12,10 +12,12 @@ Publication records include self-assessed <a href="https://credit.niso.org/">CRe
 
 {% for post in site.publications %}
   {% if post.tags %}
-    {% assign filteredArray = tags | where: 'tag', tag.tag %}
-    {% if filteredArray.size == 0 %}
-      {% assign tags = tags | push: tag %}
-    {% endif %}
+    {% for tag in tags %}
+      {% assign filteredArray = tags | where: 'tag', tag.tag %}
+      {% if filteredArray.size == 0 %}
+        {% assign tags = tags | push: tag %}
+      {% endif %}
+    {% endfor %}
   {% endif %}
 {% endfor %}
 
