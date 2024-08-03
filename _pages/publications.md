@@ -21,14 +21,15 @@ Publication records include self-assessed <a href="https://credit.niso.org/">CRe
   {% endif %}
 {% endfor %}
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js">
-<script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" type="text/javascript">
+<script type="text/javascript">
 $(document).ready(function () {
   {% for tag in tags %}
+    $("ul li.publication:not(:has(div span.{{ tag.id }}))").toggle();
     $("#toggle-{{ tag.id }}").click(function () {
-      target = "ul li.publication:not(:has(div span.{{ tag.id }}))";
-      $(target).toggle();
+      $("ul li.publication:not(:has(div span.{{ tag.id }}))").toggle();
     });
+    
   {% endfor %}
 });
 </script>
@@ -36,7 +37,7 @@ $(document).ready(function () {
 <div id="pubs">
 {% for tag in tags %}
 <div style="white-space:nowrap; display: inline-block;">
-  <span id="toggle-{{ tag.id }}" class="publication_tag" style="background-color: {{ tag.color }}; color: {{ tag.text_color }};">{{ tag.tag }}</span>-->
+  <span id="toggle-{{ tag.id }}" class="publication_tag" style="background-color: {{ tag.color }}; color: {{ tag.text_color }};">{{ tag.tag }}</span>
 </div>
 {% endfor %}
 
