@@ -8,6 +8,35 @@ author_profile: true
 You can find my articles on <u><a href="https://scholar.google.com/citations?user=oyl_rgUAAAAJ">my Google Scholar profile</a>.</u>
 Publication records include self-assessed <a href="https://credit.niso.org/">CRediT</a> statements characterizing my areas of contribution. Hover <img src="{{ base_path }}/images/question.svg" style="display:inline; height:1em" title="Show abstract" /> icons to show the abstract.
 
+{% assign tags = "" | split: ',' %}
+
+{% for post in site.publications %}
+  {% if post.tags %}
+    {% assign filteredArray = arr | where: 'tag', tag.tag %}
+    {% if filteredArray.size > 0 %}
+      {% assign tags = tags | push: tags %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+<style>
+{% for tag in tags %}
+#toggle-{{ tag.id }}:checked ~ .publication:not(has(li div span.{{ tag.id }})) {
+    display: none;
+}
+{% endfor %}
+
+.visually-hidden {
+    position: absolute;
+    left: -100vw;
+}
+</style>
+
+{% for tag in tags %}
+  <label for="toggle-{{ tag.id }}" class="publication_tag">{{ tag.tag }}</label>
+  <input type="checkbox" id="toggle" class="visually-hidden" />
+{% endfor %}
+
 {% include base_path %}
 
 <h3>Preprints</h3>
