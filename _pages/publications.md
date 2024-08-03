@@ -21,7 +21,7 @@ Publication records include self-assessed <a href="https://credit.niso.org/">CRe
   {% endif %}
 {% endfor %}
 
-<style>
+<style type="text/css">
 {% for tag in tags %}
 #toggle-{{ tag.id }}:checked ~ .publication:not(:has(div span.{{ tag.id }})) {
     display: none;
@@ -30,6 +30,7 @@ Publication records include self-assessed <a href="https://credit.niso.org/">CRe
 
 label.publication_tag {
   display: inline-block;
+  margin-right: 3px;
 }
 
 .visually-hidden {
