@@ -6,10 +6,10 @@ link: https://osf.io/preprints/psyarxiv/vufw4
 tags:
     - tag: Language acquisition
       id: language-acquisition
-      color: '#CD5C5C'
+      color: '#AFEEEE'
     - tag: Statistical inference
       id: statistical-inference
-      color: '#FFA500'
+      color: '#FFDAB9'
 type: publications
 date: 2024-07-01
 venue: 'Behavior Research Methods [accepted]'

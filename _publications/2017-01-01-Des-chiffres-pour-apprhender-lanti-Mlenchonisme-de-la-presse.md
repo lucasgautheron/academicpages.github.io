@@ -6,10 +6,10 @@ link: https://www.marianne.net/agora/tribunes-libres/des-chiffres-pour-apprehend
 tags:
     - tag: Politics and elections
       id: politics-and-elections
-      color: '#FFFFFF'
+      color: '#DB7093'
     - tag: Data mining
       id: data-mining
-      color: '#006400'
+      color: '#EEE8AA'
 type: press
 date: 2017-01-01
 venue: 'Marianne'

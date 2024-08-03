@@ -6,22 +6,22 @@ link: https://arxiv.org/abs/2312.14040
 tags:
     - tag: Science of Science
       id: science-of-science
-      color: '#D2691E'
+      color: '#5F9EA0'
     - tag: Optimal Transport
       id: optimal-transport
-      color: '#FFEFD5'
+      color: '#FF8C00'
     - tag: Natural language processing
       id: natural-language-processing
-      color: '#00FF00'
+      color: '#7B68EE'
     - tag: Networks
       id: networks
-      color: '#000000'
+      color: '#BC8F8F'
     - tag: Bayesian inference
       id: bayesian-inference
-      color: '#FFA07A'
+      color: '#BDB76B'
     - tag: Inverse methods
       id: inverse-methods
-      color: '#FDF5E6'
+      color: '#D8BFD8'
 type: preprints
 date: 2023-12-01
 venue: 'arXiv'

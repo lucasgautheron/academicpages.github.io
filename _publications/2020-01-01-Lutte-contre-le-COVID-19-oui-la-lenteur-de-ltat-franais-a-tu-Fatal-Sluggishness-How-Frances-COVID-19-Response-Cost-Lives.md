@@ -6,13 +6,13 @@ link: https://www.lemediatv.fr/emissions/2020/data-lutte-contre-le-covid-19-oui-
 tags:
     - tag: Covid
       id: covid
-      color: '#FFFF00'
+      color: '#FA8072'
     - tag: Data mining
       id: data-mining
-      color: '#006400'
+      color: '#EEE8AA'
     - tag: Bayesian inference
       id: bayesian-inference
-      color: '#FFA07A'
+      color: '#BDB76B'
 type: press
 date: 2020-01-01
 venue: 'Le Média'
