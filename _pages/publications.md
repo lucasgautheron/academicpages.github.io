@@ -35,13 +35,13 @@ $(document).ready(function () {
   {% endfor %}
 
   function restore_tag_color(tag_id) {
-    $("#toggle-" + tag_id + "").css('background-color', tag_state[tag_id].color);
-    $("#toggle-" + tag_id + "").css('color', tag_state[tag_id].text_color);
+    $("." + tag_id).css('background-color', tag_state[tag_id].color);
+    $("." + tag_id).css('color', tag_state[tag_id].text_color);
   }
 
   function grayout_tag(tag_id) {
-    $("#toggle-" + tag_id + "").css('background-color', 'rgb(164, 164, 164)');
-    $("#toggle-" + tag_id + "").css('color', 'white');
+    $("." + tag_id).css('background-color', 'rgb(164, 164, 164)');
+    $("." + tag_id).css('color', 'white');
   }
 
   function select_tag(tag_id) {
@@ -58,7 +58,7 @@ $(document).ready(function () {
 
 
   {% for tag in tags %}
-    $("#toggle-{{ tag.id }}").click(function () {
+    $(".{{ tag.id }}").click(function () {
       tag_id = "{{ tag.id }}";
       target = "ul li.publication:not(:has(div span.{{ tag.id }}))";
 
@@ -66,7 +66,7 @@ $(document).ready(function () {
 
       console.log(tag_id); 
       console.log(tag_state[tag_id].selected); 
-      console.log($("#toggle-{{ tag.id }}").css('background-color')); 
+      console.log($(".{{ tag.id }}").css('background-color')); 
 
       if (tag_state[tag_id].selected == true) {
         for (tag in tag_state) {
