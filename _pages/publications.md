@@ -30,6 +30,7 @@ Publication records include self-assessed <a href="https://credit.niso.org/">CRe
 
 .visually-hidden {
     position: absolute;
+    display: inline-block;
     left: -100vw;
 }
 </style>
