@@ -44,7 +44,7 @@ label.publication_tag {
 
 {% for tag in tags %}
 <div style="white-space:nowrap; display: inline-block;">
-  <label for="toggle-{{ tag.id }}" class="publication_tag" style="background-color: {{ tag.color }}; color: {{ tag.text_color }};">{{ tag.tag }}</label>
+  <!--<label for="toggle-{{ tag.id }}" class="publication_tag" style="background-color: {{ tag.color }}; color: {{ tag.text_color }};">{{ tag.tag }}</label>-->
   <input type="checkbox" id="toggle-{{ tag.id }}" class="visually-hidden" />
 </div>
 {% endfor %}
