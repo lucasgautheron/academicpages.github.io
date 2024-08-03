@@ -74,9 +74,9 @@ $(document).ready(function () {
             deselect_tag(tag_id);
           }
         }
-        enable_tag(tag_id);
+        select_tag(tag_id);
       } else {
-        disable_tag(tag_id);
+        deselect_tag(tag_id);
       }
 
       n_selected = 0;
