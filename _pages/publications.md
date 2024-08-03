@@ -36,8 +36,8 @@ Publication records include self-assessed <a href="https://credit.niso.org/">CRe
 </style>
 
 {% for tag in tags %}
-  <label for="toggle-{{ tag.id }}" class="publication_tag">{{ tag.tag }}</label>
-  <input type="checkbox" id="toggle" class="visually-hidden" />
+  <label for="toggle-{{ tag.id }}" class="publication_tag" style="background-color: {{ tag.color }}; color: {{ tag.text_color }};">{{ tag.tag }}</label>
+  <input type="checkbox" id="toggle-{{ tag.id }}" class="visually-hidden" />
 {% endfor %}
 
 {% include base_path %}
