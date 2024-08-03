@@ -21,7 +21,24 @@ Publication records include self-assessed <a href="https://credit.niso.org/">CRe
   {% endif %}
 {% endfor %}
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+<script>
+$(document).ready(function () {
+  {% for tag in tags %}
+    $("#toggle-{{ tag.id }}").click(function () {
+      target = "ul li.publication:not(:has(div span.{{ tag.id }}))";
+      $(target).toggle();
+    });
+  {% endfor %}
+});
+</script>
+
 <div id="pubs">
+{% for tag in tags %}
+<div style="white-space:nowrap; display: inline-block;">
+  <span id="toggle-{{ tag.id }}" class="publication_tag" style="background-color: {{ tag.color }}; color: {{ tag.text_color }};">{{ tag.tag }}</span>-->
+</div>
+{% endfor %}
 
 {% include base_path %}
 
