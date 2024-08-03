@@ -23,7 +23,7 @@ Publication records include self-assessed <a href="https://credit.niso.org/">CRe
 
 <style>
 {% for tag in tags %}
-#toggle-{{ tag.id }}:checked ~ .publication:not(has(div span.{{ tag.id }})) {
+#toggle-{{ tag.id }}:checked ~ .publication:not(:has(div span.{{ tag.id }})) {
     display: none;
 }
 {% endfor %}
