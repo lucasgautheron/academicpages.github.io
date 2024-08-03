@@ -3,6 +3,7 @@ title: "[DATA] Les morts invisibles du coronavirus : la vérité derrière les c
 collection: publications
 paperurl: 'https://www.lemediatv.fr/articles/2020/data-les-morts-invisibles-du-coronavirus-la-verite-derriere-les-chiffres-officiels-SaYKcOT9RFaTkUMNO7HOYg'
 link: https://www.lemediatv.fr/articles/2020/data-les-morts-invisibles-du-coronavirus-la-verite-derriere-les-chiffres-officiels-SaYKcOT9RFaTkUMNO7HOYg
+tags:    - Covid    - Data mining    - Statistical inference
 type: press
 date: 2020-01-01
 venue: 'Le Média'
