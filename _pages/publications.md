@@ -40,7 +40,7 @@ label.publication_tag {
 .visually-hidden {
     /*position: absolute;*/
     display: inline-block;
-    left: -100vw;
+    /*left: -100vw;/*
 }
 </style>
 
