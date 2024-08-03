@@ -3,7 +3,9 @@ title: "Reverse Engineering Language Acquisition with Child-Centered Long-Form R
 collection: publications
 paperurl: 'https://www.annualreviews.org/doi/full/10.1146/annurev-linguistics-031120-122120'
 link: https://www.annualreviews.org/doi/full/10.1146/annurev-linguistics-031120-122120
-tags:    - Language acquisition    - Literature review
+tags:
+    - Language acquisition
+    - Literature review
 type: publications
 date: 2022-01-01
 venue: 'Annual Review of Linguistics'

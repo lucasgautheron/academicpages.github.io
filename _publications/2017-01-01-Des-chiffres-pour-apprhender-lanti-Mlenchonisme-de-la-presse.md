@@ -3,7 +3,9 @@ title: "Des chiffres pour appréhender l&apos;anti-Mélenchonisme de la presse"
 collection: publications
 paperurl: 'https://www.marianne.net/agora/tribunes-libres/des-chiffres-pour-apprehender-l-anti-melenchonisme-de-la-presse'
 link: https://www.marianne.net/agora/tribunes-libres/des-chiffres-pour-apprehender-l-anti-melenchonisme-de-la-presse
-tags:    - Politics and elections    - Data mining
+tags:
+    - Politics and elections
+    - Data mining
 type: press
 date: 2017-01-01
 venue: 'Marianne'

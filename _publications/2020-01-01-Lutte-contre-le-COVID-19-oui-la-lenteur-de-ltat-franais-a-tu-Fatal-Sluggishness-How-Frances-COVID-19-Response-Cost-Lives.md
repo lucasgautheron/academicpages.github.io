@@ -3,7 +3,10 @@ title: "[DATA] Lutte contre le COVID-19 : oui, la lenteur de l’État français
 collection: publications
 paperurl: 'https://www.lemediatv.fr/emissions/2020/data-lutte-contre-le-covid-19-oui-la-lenteur-de-letat-francais-a-tue-PtqelwZ3SmalFijh_IZrvA'
 link: https://www.lemediatv.fr/emissions/2020/data-lutte-contre-le-covid-19-oui-la-lenteur-de-letat-francais-a-tue-PtqelwZ3SmalFijh_IZrvA
-tags:    - Covid    - Data mining    - Bayesian inference
+tags:
+    - Covid
+    - Data mining
+    - Bayesian inference
 type: press
 date: 2020-01-01
 venue: 'Le Média'

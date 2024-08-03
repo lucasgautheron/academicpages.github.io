@@ -3,7 +3,9 @@ title: "Référendum ADP : les médias au service du pouvoir (Silencing Democrac
 collection: publications
 paperurl: 'https://www.lemediatv.fr/emissions/2019/referendum-adp-les-medias-au-service-du-pouvoir-0z4S258wQWObV9CQ7R4jow'
 link: https://www.lemediatv.fr/emissions/2019/referendum-adp-les-medias-au-service-du-pouvoir-0z4S258wQWObV9CQ7R4jow
-tags:    - Politics and elections    - Data mining
+tags:
+    - Politics and elections
+    - Data mining
 type: press
 date: 2019-01-01
 venue: 'Le Média'

@@ -3,7 +3,10 @@ title: "Élections européennes : un vote de classe avant tout (European Electio
 collection: publications
 paperurl: 'https://www.lemediatv.fr/articles/2019/elections-europeennes-un-vote-de-classe-avant-tout-Db1jRBt_S6Cz91TlQMSG_A'
 link: https://www.lemediatv.fr/articles/2019/elections-europeennes-un-vote-de-classe-avant-tout-Db1jRBt_S6Cz91TlQMSG_A
-tags:    - Politics and elections    - Data mining    - Bayesian inference
+tags:
+    - Politics and elections
+    - Data mining
+    - Bayesian inference
 type: press
 date: 2019-01-01
 venue: 'Le Média'

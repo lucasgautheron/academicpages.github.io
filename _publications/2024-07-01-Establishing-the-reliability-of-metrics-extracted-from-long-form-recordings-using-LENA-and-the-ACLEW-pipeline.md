@@ -3,7 +3,9 @@ title: "Establishing the reliability of metrics extracted from long-form recordi
 collection: publications
 paperurl: 'https://osf.io/preprints/psyarxiv/vufw4'
 link: https://osf.io/preprints/psyarxiv/vufw4
-tags:    - Language acquisition    - Statistical inference
+tags:
+    - Language acquisition
+    - Statistical inference
 type: publications
 date: 2024-07-01
 venue: 'Behavior Research Methods [accepted]'

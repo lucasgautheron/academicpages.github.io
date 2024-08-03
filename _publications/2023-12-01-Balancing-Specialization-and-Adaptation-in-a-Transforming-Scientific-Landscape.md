@@ -3,7 +3,13 @@ title: "Balancing Specialization and Adaptation in a Transforming Scientific Lan
 collection: publications
 paperurl: 'https://arxiv.org/abs/2312.14040'
 link: https://arxiv.org/abs/2312.14040
-tags:    - Science of Science    - Optimal Transport    - Natural language processing    - Networks    - Bayesian inference    - Inverse methods
+tags:
+    - Science of Science
+    - Optimal Transport
+    - Natural language processing
+    - Networks
+    - Bayesian inference
+    - Inverse methods
 type: preprints
 date: 2023-12-01
 venue: 'arXiv'

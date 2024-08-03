@@ -3,7 +3,11 @@ title: "Managing, storing, and sharing long-form recordings and their annotation
 collection: publications
 paperurl: 'https://link.springer.com/10.1007/s10579-022-09579-3'
 link: https://link.springer.com/10.1007/s10579-022-09579-3
-tags:    - Language acquisition    - Open science    - Big data    - Software
+tags:
+    - Language acquisition
+    - Open science
+    - Big data
+    - Software
 type: publications
 date: 2022-02-01
 venue: 'Language Resources and Evaluation'
