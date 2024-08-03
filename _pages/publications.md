@@ -24,17 +24,32 @@ Publication records include self-assessed <a href="https://credit.niso.org/">CRe
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" type="text/javascript"></script>
 <script type="text/javascript">
 $(document).ready(function () {
+  var tag_state = {};
+
   {% for tag in tags %}
+    tag_state["{{ tag.id }}"] = {
+      color: "{{ tag.color }}",
+      text_color: "{{ tag.text_color }}",
+      selected: false
+    };
+  {% endfor %}
+
+
+  {% for tag in tags %}
+
     $("#toggle-{{ tag.id }}").click(function () {
       target = "ul li.publication:not(:has(div span.{{ tag.id }}))";
+      tag_id = "{{ tag.id }}";
+
+      tag_state[tag_id].selected = !tag_state[tag_id].selected;
 
       console.log($("#toggle-{{ tag.id }}").css('background-color')); 
-      if ($("#toggle-{{ tag.id }}").css('background-color') == 'rgb(128, 128, 128)') {
-        $("#toggle-{{ tag.id }}").css('background-color', '');
-        $("#toggle-{{ tag.id }}").css('color', '');
+      if (tag_state[tag_id].selected == true) {
+        $("#toggle-{{ tag.id }}").css('background-color', tag_state[tag_id].color);
+        $("#toggle-{{ tag.id }}").css('color', tag_state[tag_id].text_color);
         $(target).show();
       } else {
-        $("#toggle-{{ tag.id }}").css('background-color', 'rgb(128, 128, 128)');
+        $("#toggle-{{ tag.id }}").css('background-color', 'rgb(164, 164, 164)');
         $("#toggle-{{ tag.id }}").css('color', 'white');
         $(target).hide();
       }
@@ -45,7 +60,9 @@ $(document).ready(function () {
 </script>
 
 {% for tag in tags %}
-<span id="toggle-{{ tag.id }}" class="publication_tag {{ tag.id }}" style="background-color: {{ tag.color }}; color: {{ tag.text_color }}; margin-left: 4px;">{{ tag.tag }}</span>
+<div style="white-space:nowrap; display: inline-block;">
+  <span id="toggle-{{ tag.id }}" class="publication_tag {{ tag.id }}" style="background-color: {{ tag.color }}; color: {{ tag.text_color }}; margin-right: 4px;">{{ tag.tag }}</span>
+</div>
 {% endfor %}
 
 {% include base_path %}
