@@ -6,16 +6,16 @@ link: https://link.springer.com/10.1007/s10579-022-09579-3
 tags:
     - tag: Language acquisition
       id: language-acquisition
-      color: #696969
+      color: '#CD5C5C'
     - tag: Open science
       id: open-science
-      color: #FFDAB9
+      color: '#FF6347'
     - tag: Big data
       id: big-data
-      color: #BA55D3
+      color: '#9ACD32'
     - tag: Software
       id: software
-      color: #FFE4C4
+      color: '#0000FF'
 type: publications
 date: 2022-02-01
 venue: 'Language Resources and Evaluation'
