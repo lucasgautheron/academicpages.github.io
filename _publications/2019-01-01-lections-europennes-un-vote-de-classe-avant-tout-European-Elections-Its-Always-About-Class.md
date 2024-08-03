@@ -4,17 +4,17 @@ collection: publications
 paperurl: 'https://www.lemediatv.fr/articles/2019/elections-europeennes-un-vote-de-classe-avant-tout-Db1jRBt_S6Cz91TlQMSG_A'
 link: https://www.lemediatv.fr/articles/2019/elections-europeennes-un-vote-de-classe-avant-tout-Db1jRBt_S6Cz91TlQMSG_A
 tags:
-    - tag: Politics and elections
-      id: politics-and-elections
-      color: '#CD5C5C'
+    - tag: Politics
+      id: politics
+      color: '#DB7093'
       text_color: '#ffffff'
     - tag: Data mining
       id: data-mining
-      color: '#8FBC8B'
-      text_color: '#ffffff'
+      color: '#FFC0CB'
+      text_color: '#000000'
     - tag: Bayesian inference
       id: bayesian-inference
-      color: '#87CEEB'
+      color: '#D8BFD8'
       text_color: '#000000'
 type: press
 date: 2019-01-01

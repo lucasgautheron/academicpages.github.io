@@ -4,17 +4,17 @@ collection: publications
 paperurl: 'https://direct.mit.edu/qss/article/4/3/671/117340/How-research-programs-come-apart-The-example-of'
 link: https://direct.mit.edu/qss/article/4/3/671/117340/How-research-programs-come-apart-The-example-of
 tags:
-    - tag: Philosophy of Science
-      id: philosophy-of-science
-      color: '#FF8C00'
+    - tag: Science and Collective Intelligence
+      id: science-and-collective-intelligence
+      color: '#808000'
       text_color: '#ffffff'
     - tag: Natural language processing
       id: natural-language-processing
-      color: '#90EE90'
-      text_color: '#000000'
+      color: '#8B0000'
+      text_color: '#ffffff'
     - tag: Networks
       id: networks
-      color: '#DB7093'
+      color: '#9932CC'
       text_color: '#ffffff'
 type: publications
 date: 2023-01-01

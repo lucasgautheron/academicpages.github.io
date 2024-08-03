@@ -4,30 +4,30 @@ collection: publications
 paperurl: 'https://arxiv.org/abs/2312.14040'
 link: https://arxiv.org/abs/2312.14040
 tags:
-    - tag: Science of Science
-      id: science-of-science
-      color: '#4682B4'
+    - tag: Science and Collective Intelligence
+      id: science-and-collective-intelligence
+      color: '#808000'
       text_color: '#ffffff'
     - tag: Optimal Transport
       id: optimal-transport
-      color: '#FA8072'
-      text_color: '#ffffff'
+      color: '#D3D3D3'
+      text_color: '#000000'
     - tag: Natural language processing
       id: natural-language-processing
-      color: '#90EE90'
-      text_color: '#000000'
+      color: '#8B0000'
+      text_color: '#ffffff'
     - tag: Networks
       id: networks
-      color: '#DB7093'
+      color: '#9932CC'
       text_color: '#ffffff'
     - tag: Bayesian inference
       id: bayesian-inference
-      color: '#87CEEB'
+      color: '#D8BFD8'
       text_color: '#000000'
     - tag: Inverse problems
       id: inverse-problems
-      color: '#FFF8DC'
-      text_color: '#000000'
+      color: '#5F9EA0'
+      text_color: '#ffffff'
 type: preprints
 date: 2023-12-01
 venue: 'arXiv'

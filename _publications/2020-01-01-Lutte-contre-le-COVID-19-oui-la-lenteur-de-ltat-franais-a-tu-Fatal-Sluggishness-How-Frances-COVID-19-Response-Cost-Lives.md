@@ -4,17 +4,17 @@ collection: publications
 paperurl: 'https://www.lemediatv.fr/emissions/2020/data-lutte-contre-le-covid-19-oui-la-lenteur-de-letat-francais-a-tue-PtqelwZ3SmalFijh_IZrvA'
 link: https://www.lemediatv.fr/emissions/2020/data-lutte-contre-le-covid-19-oui-la-lenteur-de-letat-francais-a-tue-PtqelwZ3SmalFijh_IZrvA
 tags:
-    - tag: Covid
-      id: covid
-      color: '#9932CC'
+    - tag: Epidemics
+      id: epidemics
+      color: '#7B68EE'
       text_color: '#ffffff'
     - tag: Data mining
       id: data-mining
-      color: '#8FBC8B'
-      text_color: '#ffffff'
+      color: '#FFC0CB'
+      text_color: '#000000'
     - tag: Bayesian inference
       id: bayesian-inference
-      color: '#87CEEB'
+      color: '#D8BFD8'
       text_color: '#000000'
 type: press
 date: 2020-01-01
