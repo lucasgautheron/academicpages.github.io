@@ -14,7 +14,7 @@ Publication records include self-assessed <a href="https://credit.niso.org/">CRe
   {% if post.tags %}
     {% assign filteredArray = tags | where: 'tag', tag.tag %}
     {% if filteredArray.size == 0 %}
-      {% assign tags = tags | push: tags %}
+      {% assign tags = tags | push: tag %}
     {% endif %}
   {% endif %}
 {% endfor %}
