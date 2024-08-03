@@ -68,6 +68,15 @@ hex_codes = [
     "#CD5C5C", "#FA8072", "#8B0000", "#FFC0CB", "#DB7093", "#FF8C00", "#FFDAB9", "#EEE8AA", "#BDB76B", "#D8BFD8", "#9932CC", "#90EE90", "#9ACD32", "#808000", "#6B8E23", "#8FBC8B", "#AFEEEE", "#5F9EA0", "#4682B4", "#87CEEB", "#7B68EE", "#BC8F8F", "#FFF8DC", "#D3D3D3"
 ]
 
+def hex_to_rgb(value):
+    value = value.lstrip('#')
+    lv = len(value)
+    return tuple(int(value[i:i + lv // 3], 16) for i in range(0, lv, lv // 3))
+
+def text_color_given_background(hex):
+    r, g, b = hex_to_rgb(hex)
+    return "#000000" if (r*0.299 + g*0.587 + b*0.114) > 186  else "#ffffff"
+
 for pubsource in publist:
     parser = bibtex.Parser()
     bibdata = parser.parse_string(requests.get(publist[pubsource]["file"]).text)
@@ -184,6 +193,9 @@ for pubsource in publist:
                         hex_codes.remove(tags_color[tag])
 
                     md += f"\n      color: '{tags_color[tag]}'"
+
+                    text_color = text_color_given_background(tags_color[tag])
+                    md += f"\n      text_color: '{text_color}'"
 
             if "note" in b and "under review" in  b["note"]:
                 t = "under-review"

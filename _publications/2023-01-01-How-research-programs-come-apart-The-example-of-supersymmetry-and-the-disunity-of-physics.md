@@ -6,13 +6,16 @@ link: https://direct.mit.edu/qss/article/4/3/671/117340/How-research-programs-co
 tags:
     - tag: Philosophy of Science
       id: philosophy-of-science
-      color: '#90EE90'
+      color: '#FF8C00'
+      text_color: '#ffffff'
     - tag: Natural language processing
       id: natural-language-processing
-      color: '#7B68EE'
+      color: '#FA8072'
+      text_color: '#ffffff'
     - tag: Networks
       id: networks
-      color: '#BC8F8F'
+      color: '#8B0000'
+      text_color: '#ffffff'
 type: publications
 date: 2023-01-01
 venue: 'Quantitative Science Studies'
