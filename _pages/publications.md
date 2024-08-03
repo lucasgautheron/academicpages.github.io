@@ -27,7 +27,7 @@ Publication records include self-assessed <a href="https://credit.niso.org/">CRe
     display: none;
 }
 
-#toggle-{{ tag.id }}:checked ~ .publication {
+#toggle-{{ tag.id }}:checked ~ div {
     color:red;
 }
 {% endfor %}
