@@ -10,11 +10,11 @@ tags:
       text_color: '#ffffff'
     - tag: Natural language processing
       id: natural-language-processing
-      color: '#FA8072'
-      text_color: '#ffffff'
+      color: '#90EE90'
+      text_color: '#000000'
     - tag: Networks
       id: networks
-      color: '#8B0000'
+      color: '#DB7093'
       text_color: '#ffffff'
 type: publications
 date: 2023-01-01

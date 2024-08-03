@@ -6,19 +6,19 @@ link: https://link.springer.com/10.1007/s10579-022-09579-3
 tags:
     - tag: Language acquisition
       id: language-acquisition
-      color: '#90EE90'
-      text_color: '#000000'
+      color: '#7B68EE'
+      text_color: '#ffffff'
     - tag: Open science
       id: open-science
-      color: '#87CEEB'
-      text_color: '#000000'
+      color: '#9ACD32'
+      text_color: '#ffffff'
     - tag: Big data
       id: big-data
-      color: '#8FBC8B'
+      color: '#808000'
       text_color: '#ffffff'
     - tag: Software
       id: software
-      color: '#9ACD32'
+      color: '#BDB76B'
       text_color: '#ffffff'
 type: publications
 date: 2022-02-01
