@@ -34,24 +34,40 @@ $(document).ready(function () {
     };
   {% endfor %}
 
+  function enable_tag(tag_id) {
+    target = "ul li.publication:not(:has(div span.{{ tag_id }}))";
+    $("#toggle-{{ tag.id }}").css('background-color', 'rgb(164, 164, 164)');
+    $("#toggle-{{ tag.id }}").css('color', 'white');
+    $(target).hide();
+  }
+
+  function disable_tag(tag_id) {
+    target = "ul li.publication:not(:has(div span.{{ tag_id }}))";
+    $("#toggle-{{ tag.id }}").css('background-color', tag_state[tag_id].color);
+    $("#toggle-{{ tag.id }}").css('color', tag_state[tag_id].text_color);
+    $(target).show();
+  }
 
   {% for tag in tags %}
-
     $("#toggle-{{ tag.id }}").click(function () {
       target = "ul li.publication:not(:has(div span.{{ tag.id }}))";
       tag_id = "{{ tag.id }}";
 
       tag_state[tag_id].selected = !tag_state[tag_id].selected;
 
+      console.log(tag_id); 
+      console.log(tag_state[tag_id].selected); 
       console.log($("#toggle-{{ tag.id }}").css('background-color')); 
+
       if (tag_state[tag_id].selected == true) {
-        $("#toggle-{{ tag.id }}").css('background-color', tag_state[tag_id].color);
-        $("#toggle-{{ tag.id }}").css('color', tag_state[tag_id].text_color);
-        $(target).show();
+        for (tag in tag_state) {
+          if (tag_state[tag].selected == true) {
+            disable_tag(tag_id);
+          }
+        }
+        enable_tag(tag_id);
       } else {
-        $("#toggle-{{ tag.id }}").css('background-color', 'rgb(164, 164, 164)');
-        $("#toggle-{{ tag.id }}").css('color', 'white');
-        $(target).hide();
+        disable_tag(tag_id);
       }
     });
     
