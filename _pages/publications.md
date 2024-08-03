@@ -27,7 +27,17 @@ $(document).ready(function () {
   alert("hi");
   {% for tag in tags %}
     $("#toggle-{{ tag.id }}").click(function () {
-      $("ul li.publication:not(:has(div span.{{ tag.id }}))").toggle();
+      target = "ul li.publication:not(:has(div span.{{ tag.id }}))";
+
+      if ($("#toggle-{{ tag.id }}").css('background-color') == 'gray') {
+        $("#toggle-{{ tag.id }}").css('background-color', '');
+        $("#toggle-{{ tag.id }}").css('color', '');
+        $(target).show();
+      } else {
+        $("#toggle-{{ tag.id }}").css('background-color', 'gray');
+        $("#toggle-{{ tag.id }}").css('color', 'white');
+        $(target).hide();
+      }
     });
     
   {% endfor %}
@@ -37,7 +47,7 @@ $(document).ready(function () {
 <div id="pubs">
 {% for tag in tags %}
 <div style="white-space:nowrap; display: inline-block;">
-  <span id="toggle-{{ tag.id }}" class="publication_tag" style="background-color: {{ tag.color }}; color: {{ tag.text_color }};">{{ tag.tag }}</span>
+  <span id="toggle-{{ tag.id }}" class="publication_tag {{ tag.id }}" style="background-color: {{ tag.color }}; color: {{ tag.text_color }};">{{ tag.tag }}</span>
 </div>
 {% endfor %}
 
