@@ -71,7 +71,7 @@ $(document).ready(function () {
       if (tag_state[tag_id].selected == true) {
         for (tag in tag_state) {
           if (tag_state[tag].selected == true) {
-            deselect_tag(tag_id);
+            deselect_tag(tag);
           }
         }
         select_tag(tag_id);
