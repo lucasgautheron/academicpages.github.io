@@ -6,12 +6,12 @@ link: https://doi.org/10.1111/desc.13375
 tags:
     - tag: Language acquisition
       id: language-acquisition
-      color: '#AFEEEE'
-      text_color: '#000000'
+      color: '#5F9EA0'
+      text_color: '#ffffff'
     - tag: Statistical and Bayesian Inference
       id: statistical-and-bayesian-inference
-      color: '#D8BFD8'
-      text_color: '#000000'
+      color: '#7B68EE'
+      text_color: '#ffffff'
 type: publications
 date: 2023-02-01
 venue: 'Developmental Science'

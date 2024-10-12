@@ -5,7 +5,7 @@ paperurl: 'https://linguistics.ucla.edu/event/lucas-gautheron-lecutre/'
 link: https://linguistics.ucla.edu/event/lucas-gautheron-lecutre/
 type: talks,invitedtalks
 date: 2024-06-01
-venue: 'Department of Linguistics, UCLA'
+venue: 'Department of Linguistics, UCLA, Los Angeles, CA, United States'
 authors: <b>Gautheron L.</b>
-citation: ' Lucas Gautheron, &quot;Correlational analyses of the effects of caregivers’ speech behaviour on children’s speech production.&quot; Department of Linguistics, UCLA, 2024.'
+citation: ' Lucas Gautheron, &quot;Correlational analyses of the effects of caregivers’ speech behaviour on children’s speech production.&quot; Department of Linguistics, UCLA, Los Angeles, CA, United States, 2024.'
 ---
