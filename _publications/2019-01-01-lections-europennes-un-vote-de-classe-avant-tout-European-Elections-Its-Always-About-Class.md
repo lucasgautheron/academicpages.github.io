@@ -10,12 +10,12 @@ tags:
       text_color: '#ffffff'
     - tag: Data mining
       id: data-mining
-      color: '#BC8F8F'
+      color: '#DB7093'
       text_color: '#ffffff'
     - tag: Statistical and Bayesian Inference
       id: statistical-and-bayesian-inference
-      color: '#D3D3D3'
-      text_color: '#000000'
+      color: '#9ACD32'
+      text_color: '#ffffff'
 type: press
 date: 2019-01-01
 venue: 'Le Média'

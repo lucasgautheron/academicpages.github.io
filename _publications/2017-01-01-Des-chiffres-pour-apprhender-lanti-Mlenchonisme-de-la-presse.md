@@ -10,7 +10,7 @@ tags:
       text_color: '#ffffff'
     - tag: Data mining
       id: data-mining
-      color: '#BC8F8F'
+      color: '#DB7093'
       text_color: '#ffffff'
 type: press
 date: 2017-01-01
