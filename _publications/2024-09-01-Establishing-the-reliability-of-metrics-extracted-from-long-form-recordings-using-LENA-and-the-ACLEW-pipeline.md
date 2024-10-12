@@ -6,11 +6,11 @@ link: https://link.springer.com/article/10.3758/s13428-024-02493-2
 tags:
     - tag: Language acquisition
       id: language-acquisition
-      color: '#5F9EA0'
+      color: '#DB7093'
       text_color: '#ffffff'
     - tag: Statistical and Bayesian Inference
       id: statistical-and-bayesian-inference
-      color: '#7B68EE'
+      color: '#9ACD32'
       text_color: '#ffffff'
 type: publications
 date: 2024-09-01

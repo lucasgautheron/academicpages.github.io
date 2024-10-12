@@ -10,11 +10,11 @@ tags:
       text_color: '#ffffff'
     - tag: Data mining
       id: data-mining
-      color: '#FFDAB9'
-      text_color: '#000000'
+      color: '#808000'
+      text_color: '#ffffff'
     - tag: Statistical and Bayesian Inference
       id: statistical-and-bayesian-inference
-      color: '#7B68EE'
+      color: '#9ACD32'
       text_color: '#ffffff'
 type: press
 date: 2019-01-01

@@ -6,12 +6,12 @@ link: https://www.annualreviews.org/doi/full/10.1146/annurev-linguistics-031120-
 tags:
     - tag: Language acquisition
       id: language-acquisition
-      color: '#5F9EA0'
+      color: '#DB7093'
       text_color: '#ffffff'
     - tag: Literature review
       id: literature-review
-      color: '#9ACD32'
-      text_color: '#ffffff'
+      color: '#FFF8DC'
+      text_color: '#000000'
 type: publications
 date: 2022-01-01
 venue: 'Annual Review of Linguistics'

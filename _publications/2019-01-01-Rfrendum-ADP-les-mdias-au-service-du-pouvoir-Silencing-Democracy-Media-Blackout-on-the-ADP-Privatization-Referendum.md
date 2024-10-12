@@ -10,8 +10,8 @@ tags:
       text_color: '#ffffff'
     - tag: Data mining
       id: data-mining
-      color: '#FFDAB9'
-      text_color: '#000000'
+      color: '#808000'
+      text_color: '#ffffff'
 type: press
 date: 2019-01-01
 venue: 'Le Média'
