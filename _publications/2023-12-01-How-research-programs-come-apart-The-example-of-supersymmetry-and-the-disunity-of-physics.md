@@ -6,15 +6,15 @@ link: https://direct.mit.edu/qss/article/4/3/671/117340/How-research-programs-co
 tags:
     - tag: Science and Collective Intelligence
       id: science-and-collective-intelligence
-      color: '#7B68EE'
-      text_color: '#ffffff'
+      color: '#EEE8AA'
+      text_color: '#000000'
     - tag: Natural language processing
       id: natural-language-processing
-      color: '#9932CC'
+      color: '#9ACD32'
       text_color: '#ffffff'
     - tag: Networks
       id: networks
-      color: '#FF8C00'
+      color: '#8B0000'
       text_color: '#ffffff'
 type: publications
 date: 2023-12-01

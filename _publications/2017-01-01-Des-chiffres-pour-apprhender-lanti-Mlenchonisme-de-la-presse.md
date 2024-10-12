@@ -10,8 +10,8 @@ tags:
       text_color: '#ffffff'
     - tag: Data mining
       id: data-mining
-      color: '#D8BFD8'
-      text_color: '#000000'
+      color: '#BC8F8F'
+      text_color: '#ffffff'
 type: press
 date: 2017-01-01
 venue: 'Marianne'
