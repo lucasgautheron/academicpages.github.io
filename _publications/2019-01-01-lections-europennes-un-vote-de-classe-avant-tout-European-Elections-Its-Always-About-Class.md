@@ -6,15 +6,15 @@ link: https://www.lemediatv.fr/articles/2019/elections-europeennes-un-vote-de-cl
 tags:
     - tag: Politics
       id: politics
-      color: '#6B8E23'
+      color: '#5F9EA0'
       text_color: '#ffffff'
     - tag: Data mining
       id: data-mining
-      color: '#808000'
-      text_color: '#ffffff'
+      color: '#D8BFD8'
+      text_color: '#000000'
     - tag: Statistical and Bayesian Inference
       id: statistical-and-bayesian-inference
-      color: '#9ACD32'
+      color: '#8B0000'
       text_color: '#ffffff'
 type: press
 date: 2019-01-01

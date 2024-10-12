@@ -6,15 +6,15 @@ link: https://www.lemediatv.fr/articles/2020/data-les-morts-invisibles-du-corona
 tags:
     - tag: Epidemics
       id: epidemics
-      color: '#FFC0CB'
+      color: '#90EE90'
       text_color: '#000000'
     - tag: Data mining
       id: data-mining
-      color: '#808000'
-      text_color: '#ffffff'
+      color: '#D8BFD8'
+      text_color: '#000000'
     - tag: Statistical and Bayesian Inference
       id: statistical-and-bayesian-inference
-      color: '#9ACD32'
+      color: '#8B0000'
       text_color: '#ffffff'
 type: press
 date: 2020-01-01
