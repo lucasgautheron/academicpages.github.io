@@ -51,6 +51,8 @@ publist = {
 html_escape_table = {
     "&": "&amp;",
     '"': "&quot;",
+    '``': "&quot;",
+    "''": "&quot;",
     "'": "&apos;",
     "\\%": "%",
     }
@@ -60,6 +62,14 @@ def html_escape(text):
     #return "".join(html_escape_table.get(c,c) for c in text)
     for pattern in html_escape_table:
         text = text.replace(pattern, html_escape_table[pattern])
+    return text
+
+def latex_to_html(text):
+    text = re.sub(
+        r"\\textsuperscript{(.*)}", 
+        r"<sup>\1</sup>", 
+        text
+    )
     return text
 
 tags_color = {}
@@ -79,7 +89,7 @@ def text_color_given_background(hex):
 
 for pubsource in publist:
     parser = bibtex.Parser()
-    bibdata = parser.parse_string(requests.get(publist[pubsource]["file"]).text)
+    bibdata = parser.parse_string(requests.get(publist[pubsource]["file"], headers={'Cache-Control': 'no-cache'}).text)
 
     #loop through the individual references in a given bibtex file
     for bib_id in bibdata.entries:
@@ -146,14 +156,14 @@ for pubsource in publist:
                 authorlist.append(authorname)              
 
             #add venue logic depending on citation type
-            venue = venuepretext+b[venuekey].replace("{", "").replace("}","").replace("\\","")
+            venue = venuepretext+latex_to_html(b[venuekey]).replace("{", "").replace("}","").replace("\\","")
 
             citation = citation + " " + html_escape(venue)
             citation = citation + ", " + pub_year + "."
 
             
             ## YAML variables
-            md = "---\ntitle: \""   + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + '"\n'
+            md = "---\ntitle: \""   + html_escape(latex_to_html(b["title"]).replace("{", "").replace("}","").replace("\\","")) + '"\n'
             
             md += """collection: """ +  publist[pubsource]["collection"]["name"]
 
@@ -174,12 +184,10 @@ for pubsource in publist:
 
             #t = publist[pubsource]["type"] if "type" in publist[pubsource] else None
             keywords = bibdata.entries[bib_id].fields["keywords"] if "keywords" in bibdata.entries[bib_id].fields else None
-            print(keywords)
 
             tags = []
             if "tags" in bibdata.entries[bib_id].fields:
                 tags = [tag.strip() for tag in bibdata.entries[bib_id].fields["tags"].split(",")]
-                print(tags)
 
             if len(tags):
                 md += "\ntags:"
@@ -208,7 +216,7 @@ for pubsource in publist:
 
             md += "\ndate: " + str(pub_date) 
 
-            md += "\nvenue: '" + html_escape(venue) + "'"
+            md += "\nvenue: '" + html_escape(latex_to_html(venue)) + "'"
             md += "\nauthors: " + ", ".join(authorlist)
 
             if "credit" in bibdata.entries[bib_id].fields:
