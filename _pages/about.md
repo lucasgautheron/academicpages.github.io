@@ -13,7 +13,7 @@ Research interests
 
 I am a French student in computational sociology/philosophy at the Interdisciplinary Centre for Science and Technology Studies in Wuppertal. I have a training in fundamental physics (École Normale Supérieure de Cachan and Université Pierre et Marie Curie) and in history and philosophy of science (Université Paris-Cité).
 
-I study human and social behavior using computational techniques, with a special interest in collective knowledge. My PhD focuses on modern science, as it illuminates the challenges raised by complex knowledge and the division of cognitive labor. I have broad interests that include epistemology, the philosophy and sociology of science, and cultural evolution. I remain interested in contemporary physics as well. I am also interested in Bayesian and causal inference, which I use for my PhD and other projects.
+My research aims to understand how collectives generate, leverage, transmit, and sustain complex knowledge. To answer these questions, I apply computational methods to observational behavioral data. My PhD focuses on social dilemmas high-energy physics, which is particularly interesting due to a strong division of labor. My project is highly interdiscplinary, spanning across philosophy of science, social epistemology, cognitive science, and cultural evolution. 
 
 In a previous life, I have also been a journalist and the publication manager for the french online media [Le Média](https://lemediatv.fr>).
 
@@ -29,9 +29,9 @@ Long story short, I am interested in the challenges and trade-offs involved in t
  - **Challenges related to adaptation**. Complex knowledge can be difficult to adjust and re-purpose as circumstances change. How scientists navigate the balance between specialization and adaptation? Here is a <a href="https://arxiv.org/abs/2312.14040">work in progress</a> addressing this question.
  - **Challenges related to scale**. Complex knowledge and complex experiments require more brains and material resources over longer periods of time. What are the relationships between the many scales (social scale, institutional complexity, time-scale, etc.) involved in the edification of complex knowlege?
 
-I look into what quantitative analyses of scientific literature can tell us about these issues, by developing statistical models grounded in theoretical literature from sociology, anthropology, social epistemology, and the philosophy of science. I focus on high-energy physics, a field where these challenges are very relevant, and, I would argue, at the root of a "complexity crisis". The empirical material I study includes large amounts of data from the physics literature, including semantic and social data.
+I look into what quantitative analyses of scientific literature can tell us about these issues, by developing statistical models grounded in theoretical literature from social epistemology, cognitive science, cultural evolution, and the philosophy of science. I focus on high-energy physics, a field where these challenges are very relevant, and, I would argue, at the root of a "complexity crisis". The empirical material I study includes large amounts of data from the physics literature, including semantic and social data. I use methods such as nautral language processing, network analysis, inverse problems, and simulation-based inference.
  
-This project is highly interdiscplinary as it draws from various fields ("HPS", the sociology of scientific knowledge, anthropology, social epistemology, ...). This project is financed by the Research Training Group "<a href="https://grk2696.de/">Transformations of Science and Technology since 1800</a>".
+This project is financed by the Research Training Group "<a href="https://grk2696.de/">Transformations of Science and Technology since 1800</a>".
 
   
 Language Acquisition Across Cultures
