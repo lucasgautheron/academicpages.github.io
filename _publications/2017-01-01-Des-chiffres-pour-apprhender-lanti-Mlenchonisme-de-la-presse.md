@@ -6,8 +6,8 @@ link: https://www.marianne.net/agora/tribunes-libres/des-chiffres-pour-apprehend
 tags:
     - tag: Politics
       id: politics
-      color: '#4682B4'
-      text_color: '#ffffff'
+      color: '#D8BFD8'
+      text_color: '#000000'
     - tag: Data mining
       id: data-mining
       color: '#87CEEB'

@@ -6,24 +6,24 @@ link: https://arxiv.org/abs/2312.14040
 tags:
     - tag: Science and Collective Intelligence
       id: science-and-collective-intelligence
-      color: '#EEE8AA'
-      text_color: '#000000'
+      color: '#BDB76B'
+      text_color: '#ffffff'
     - tag: Natural language processing
       id: natural-language-processing
-      color: '#5F9EA0'
-      text_color: '#ffffff'
+      color: '#FFC0CB'
+      text_color: '#000000'
     - tag: Networks
       id: networks
-      color: '#8B0000'
+      color: '#5F9EA0'
       text_color: '#ffffff'
     - tag: Statistical and Bayesian Inference
       id: statistical-and-bayesian-inference
-      color: '#BC8F8F'
+      color: '#FF8C00'
       text_color: '#ffffff'
     - tag: Inverse problems
       id: inverse-problems
-      color: '#FFC0CB'
-      text_color: '#000000'
+      color: '#8FBC8B'
+      text_color: '#ffffff'
 type: preprints
 date: 2024-09-01
 venue: 'arXiv'
