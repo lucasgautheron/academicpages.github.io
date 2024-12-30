@@ -6,15 +6,15 @@ link: https://link.springer.com/10.1007/s10579-022-09579-3
 tags:
     - tag: Language acquisition
       id: language-acquisition
-      color: '#8FBC8B'
+      color: '#FA8072'
       text_color: '#ffffff'
     - tag: Data management
       id: data-management
-      color: '#BC8F8F'
-      text_color: '#ffffff'
+      color: '#AFEEEE'
+      text_color: '#000000'
     - tag: Software
       id: software
-      color: '#D3D3D3'
+      color: '#EEE8AA'
       text_color: '#000000'
 type: publications
 date: 2022-02-01
