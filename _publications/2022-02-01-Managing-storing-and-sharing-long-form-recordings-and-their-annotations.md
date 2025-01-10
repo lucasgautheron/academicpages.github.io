@@ -14,7 +14,7 @@ tags:
       text_color: '#000000'
     - tag: Software
       id: software
-      color: '#EEE8AA'
+      color: '#87CEEB'
       text_color: '#000000'
 type: publications
 date: 2022-02-01

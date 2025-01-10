@@ -10,7 +10,7 @@ tags:
       text_color: '#ffffff'
     - tag: Literature review
       id: literature-review
-      color: '#4682B4'
+      color: '#8FBC8B'
       text_color: '#ffffff'
 type: publications
 date: 2022-01-01

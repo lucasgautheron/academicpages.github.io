@@ -10,7 +10,7 @@ tags:
       text_color: '#000000'
     - tag: Data mining
       id: data-mining
-      color: '#5F9EA0'
+      color: '#8B0000'
       text_color: '#ffffff'
 type: press
 date: 2019-01-01

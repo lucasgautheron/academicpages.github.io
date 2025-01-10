@@ -10,7 +10,7 @@ tags:
       text_color: '#ffffff'
     - tag: Statistical and Bayesian Inference
       id: statistical-and-bayesian-inference
-      color: '#BDB76B'
+      color: '#BC8F8F'
       text_color: '#ffffff'
 type: publications
 date: 2024-09-01
