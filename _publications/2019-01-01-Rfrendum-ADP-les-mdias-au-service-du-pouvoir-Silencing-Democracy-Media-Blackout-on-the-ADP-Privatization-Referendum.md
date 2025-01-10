@@ -6,8 +6,8 @@ link: https://www.lemediatv.fr/emissions/2019/referendum-adp-les-medias-au-servi
 tags:
     - tag: Politics
       id: politics
-      color: '#FFDAB9'
-      text_color: '#000000'
+      color: '#FF8C00'
+      text_color: '#ffffff'
     - tag: Data mining
       id: data-mining
       color: '#8B0000'

@@ -6,23 +6,23 @@ link: http://dx.doi.org/10.1140/epjds/s13688-024-00516-8
 tags:
     - tag: Science and Collective Intelligence
       id: science-and-collective-intelligence
-      color: '#D8BFD8'
-      text_color: '#000000'
+      color: '#9932CC'
+      text_color: '#ffffff'
     - tag: Natural language processing
       id: natural-language-processing
-      color: '#7B68EE'
-      text_color: '#ffffff'
+      color: '#FFF8DC'
+      text_color: '#000000'
     - tag: Networks
       id: networks
-      color: '#5F9EA0'
+      color: '#FA8072'
       text_color: '#ffffff'
     - tag: Statistical and Bayesian Inference
       id: statistical-and-bayesian-inference
-      color: '#BC8F8F'
+      color: '#9ACD32'
       text_color: '#ffffff'
     - tag: Inverse problems
       id: inverse-problems
-      color: '#4682B4'
+      color: '#5F9EA0'
       text_color: '#ffffff'
 type: publications
 date: 2025-01-01
