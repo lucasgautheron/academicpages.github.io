@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-<u><a href="https://scholar.google.com/citations?user=oyl_rgUAAAAJ">Google Scholar profile</a></u>.
+<u><!--<a href="https://scholar.google.com/citations?user=oyl_rgUAAAAJ">Google Scholar profile</a></u>.-->
 Records include self-assessed <a href="https://credit.niso.org/">CRediT</a> statements characterizing my contribution. <!--Hover <img src="{{ base_path }}/images/question.svg" style="display:inline; height:1em" title="Show abstract" /> icons to show the abstract.-->
 
 {% assign tags = "" | split: ',' %}
